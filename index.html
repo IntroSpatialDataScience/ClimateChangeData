@@ -3,7 +3,7 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>index</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Evaluation1-Copy1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
 
 
@@ -14644,7 +14644,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[272]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
@@ -14679,7 +14679,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[273]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[14]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">co2_new</span><span class="o">=</span><span class="n">co2</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -14709,7 +14709,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[274]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[15]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">co2_new</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'Country or Area'</span><span class="p">:</span><span class="s1">'Country'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -14729,465 +14729,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Para encontrar coincidencias entre los diferentes DF, cambio el formato de los strings de la columna 'Country' a 'title'.</p>
-
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[275]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">precipitation_new</span><span class="p">[</span><span class="s1">'Country'</span><span class="p">]</span><span class="o">=</span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[276]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[276]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Country</th>
-      <th>Station Name</th>
-      <th>Period</th>
-      <th>Statistic Description</th>
-      <th>Unit</th>
-      <th>Jan</th>
-      <th>Jan Footnotes</th>
-      <th>Feb</th>
-      <th>Feb Footnotes</th>
-      <th>Mar</th>
-      <th>...</th>
-      <th>Oct</th>
-      <th>Oct Footnotes</th>
-      <th>Nov</th>
-      <th>Nov Footnotes</th>
-      <th>Dec</th>
-      <th>Dec Footnotes</th>
-      <th>Annual</th>
-      <th>Annual Footnotes</th>
-      <th>Annual NCDC Computed Value</th>
-      <th>Annual NCDC Computed Value Footnotes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Afghanistan, Islamic State Of</td>
-      <td>Faiz abad</td>
-      <td>1961-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>49.4</td>
-      <td>NaN</td>
-      <td>65.0</td>
-      <td>NaN</td>
-      <td>91.9</td>
-      <td>...</td>
-      <td>23.4</td>
-      <td>NaN</td>
-      <td>29.7</td>
-      <td>NaN</td>
-      <td>34.1</td>
-      <td>NaN</td>
-      <td>40.4</td>
-      <td>NaN</td>
-      <td>484.9</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Afghanistan, Islamic State Of</td>
-      <td>Sheberghan</td>
-      <td>1959-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>42.3</td>
-      <td>NaN</td>
-      <td>44.3</td>
-      <td>NaN</td>
-      <td>56.4</td>
-      <td>...</td>
-      <td>6.6</td>
-      <td>NaN</td>
-      <td>13.6</td>
-      <td>NaN</td>
-      <td>29.8</td>
-      <td>NaN</td>
-      <td>19.2</td>
-      <td>NaN</td>
-      <td>230.5</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Afghanistan, Islamic State Of</td>
-      <td>Mazar-i-Sharif</td>
-      <td>1958-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>28.9</td>
-      <td>NaN</td>
-      <td>34.8</td>
-      <td>NaN</td>
-      <td>43.8</td>
-      <td>...</td>
-      <td>3.9</td>
-      <td>NaN</td>
-      <td>13.5</td>
-      <td>NaN</td>
-      <td>21.7</td>
-      <td>NaN</td>
-      <td>15.5</td>
-      <td>NaN</td>
-      <td>186.4</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Afghanistan, Islamic State Of</td>
-      <td>Kunduz</td>
-      <td>1968-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>44.0</td>
-      <td>NaN</td>
-      <td>56.5</td>
-      <td>NaN</td>
-      <td>76.7</td>
-      <td>...</td>
-      <td>7.3</td>
-      <td>NaN</td>
-      <td>23.7</td>
-      <td>NaN</td>
-      <td>28.4</td>
-      <td>NaN</td>
-      <td>26.8</td>
-      <td>NaN</td>
-      <td>322.6</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Afghanistan, Islamic State Of</td>
-      <td>Maimana</td>
-      <td>1964-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>49.9</td>
-      <td>NaN</td>
-      <td>60.5</td>
-      <td>NaN</td>
-      <td>82.2</td>
-      <td>...</td>
-      <td>9.6</td>
-      <td>NaN</td>
-      <td>20.9</td>
-      <td>NaN</td>
-      <td>44.7</td>
-      <td>NaN</td>
-      <td>29.6</td>
-      <td>NaN</td>
-      <td>355.6</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 33 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Ahora, separo las palabras separadas por coma en diferentes columnas.</p>
 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[277]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">precipitation_new</span><span class="p">[</span><span class="s1">'Country'</span><span class="p">]</span><span class="o">=</span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">','</span><span class="p">,</span><span class="n">expand</span><span class="o">=</span><span class="kc">True</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[278]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[278]:</div>
-
-
-
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Country</th>
-      <th>Station Name</th>
-      <th>Period</th>
-      <th>Statistic Description</th>
-      <th>Unit</th>
-      <th>Jan</th>
-      <th>Jan Footnotes</th>
-      <th>Feb</th>
-      <th>Feb Footnotes</th>
-      <th>Mar</th>
-      <th>...</th>
-      <th>Oct</th>
-      <th>Oct Footnotes</th>
-      <th>Nov</th>
-      <th>Nov Footnotes</th>
-      <th>Dec</th>
-      <th>Dec Footnotes</th>
-      <th>Annual</th>
-      <th>Annual Footnotes</th>
-      <th>Annual NCDC Computed Value</th>
-      <th>Annual NCDC Computed Value Footnotes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Afghanistan</td>
-      <td>Faiz abad</td>
-      <td>1961-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>49.4</td>
-      <td>NaN</td>
-      <td>65.0</td>
-      <td>NaN</td>
-      <td>91.9</td>
-      <td>...</td>
-      <td>23.4</td>
-      <td>NaN</td>
-      <td>29.7</td>
-      <td>NaN</td>
-      <td>34.1</td>
-      <td>NaN</td>
-      <td>40.4</td>
-      <td>NaN</td>
-      <td>484.9</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Afghanistan</td>
-      <td>Sheberghan</td>
-      <td>1959-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>42.3</td>
-      <td>NaN</td>
-      <td>44.3</td>
-      <td>NaN</td>
-      <td>56.4</td>
-      <td>...</td>
-      <td>6.6</td>
-      <td>NaN</td>
-      <td>13.6</td>
-      <td>NaN</td>
-      <td>29.8</td>
-      <td>NaN</td>
-      <td>19.2</td>
-      <td>NaN</td>
-      <td>230.5</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Afghanistan</td>
-      <td>Mazar-i-Sharif</td>
-      <td>1958-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>28.9</td>
-      <td>NaN</td>
-      <td>34.8</td>
-      <td>NaN</td>
-      <td>43.8</td>
-      <td>...</td>
-      <td>3.9</td>
-      <td>NaN</td>
-      <td>13.5</td>
-      <td>NaN</td>
-      <td>21.7</td>
-      <td>NaN</td>
-      <td>15.5</td>
-      <td>NaN</td>
-      <td>186.4</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>Afghanistan</td>
-      <td>Kunduz</td>
-      <td>1968-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>44.0</td>
-      <td>NaN</td>
-      <td>56.5</td>
-      <td>NaN</td>
-      <td>76.7</td>
-      <td>...</td>
-      <td>7.3</td>
-      <td>NaN</td>
-      <td>23.7</td>
-      <td>NaN</td>
-      <td>28.4</td>
-      <td>NaN</td>
-      <td>26.8</td>
-      <td>NaN</td>
-      <td>322.6</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>Afghanistan</td>
-      <td>Maimana</td>
-      <td>1964-1983</td>
-      <td>Mean Monthly Value</td>
-      <td>mm</td>
-      <td>49.9</td>
-      <td>NaN</td>
-      <td>60.5</td>
-      <td>NaN</td>
-      <td>82.2</td>
-      <td>...</td>
-      <td>9.6</td>
-      <td>NaN</td>
-      <td>20.9</td>
-      <td>NaN</td>
-      <td>44.7</td>
-      <td>NaN</td>
-      <td>29.6</td>
-      <td>NaN</td>
-      <td>355.6</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-<p>5 rows × 33 columns</p>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -15205,7 +14751,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[279]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[16]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">co2_new</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span><span class="n">solar_new</span><span class="o">.</span><span class="n">shape</span>
@@ -15226,7 +14772,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[279]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[16]:</div>
 
 
 
@@ -15246,7 +14792,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[280]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[17]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">co2_new</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span><span class="n">solar_new</span><span class="o">.</span><span class="n">columns</span>
@@ -15267,7 +14813,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[280]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[17]:</div>
 
 
 
@@ -15300,6 +14846,646 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h4 id="Fuzzy-Merge">Fuzzy Merge<a class="anchor-link" href="#Fuzzy-Merge">&#182;</a></h4>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[18]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Países que se encuentran solo en CO2 dataframe y no en solarDataframe</span>
+<span class="n">OnlyCO2_1</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">co2_new</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">solar_new</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">OnlyCO2_1</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[18]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;European Union&#39;, &#39;Iceland&#39;, &#39;Monaco&#39;, &#39;United States of America&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[19]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Países que se encuentran solo en solar dataframe y no en CO2 dataframe</span>
+<span class="n">OnlySolar_1</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">solar_new</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">co2_new</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">OnlySolar_1</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[19]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;1&#39;,
+ &#39;Afghanistan&#39;,
+ &#39;Albania&#39;,
+ &#39;Algeria&#39;,
+ &#39;American Samoa&#39;,
+ &#39;Andorra&#39;,
+ &#39;Angola&#39;,
+ &#39;Anguilla&#39;,
+ &#39;Antigua and Barbuda&#39;,
+ &#39;Argentina&#39;,
+ &#39;Armenia&#39;,
+ &#39;Aruba&#39;,
+ &#39;Azerbaijan&#39;,
+ &#39;Bahamas&#39;,
+ &#39;Bahrain&#39;,
+ &#39;Bangladesh&#39;,
+ &#39;Barbados&#39;,
+ &#39;Belize&#39;,
+ &#39;Benin&#39;,
+ &#39;Bermuda&#39;,
+ &#39;Bhutan&#39;,
+ &#39;Bolivia (Plur. State of)&#39;,
+ &#39;Bonaire, St Eustatius, Saba&#39;,
+ &#39;Bosnia and Herzegovina&#39;,
+ &#39;Botswana&#39;,
+ &#39;Brazil&#39;,
+ &#39;British Virgin Islands&#39;,
+ &#39;Brunei Darussalam&#39;,
+ &#39;Burkina Faso&#39;,
+ &#39;Burundi&#39;,
+ &#39;Cabo Verde&#39;,
+ &#39;Cambodia&#39;,
+ &#39;Cameroon&#39;,
+ &#39;Central African Rep.&#39;,
+ &#39;Chile&#39;,
+ &#39;China&#39;,
+ &#39;Colombia&#39;,
+ &#39;Congo&#39;,
+ &#39;Cook Islands&#39;,
+ &#39;Costa Rica&#39;,
+ &#39;Cuba&#39;,
+ &#39;Curaçao&#39;,
+ &#34;Côte d&#39;Ivoire&#34;,
+ &#39;Dem. Rep. of the Congo&#39;,
+ &#39;Djibouti&#39;,
+ &#39;Dominica&#39;,
+ &#39;Dominican Republic&#39;,
+ &#39;Ecuador&#39;,
+ &#39;Egypt&#39;,
+ &#39;El Salvador&#39;,
+ &#39;Eritrea&#39;,
+ &#39;Eswatini&#39;,
+ &#39;Ethiopia&#39;,
+ &#39;Faeroe Islands&#39;,
+ &#39;Falkland Is. (Malvinas)&#39;,
+ &#39;Fiji&#39;,
+ &#39;French Polynesia&#39;,
+ &#39;Gabon&#39;,
+ &#39;Gambia&#39;,
+ &#39;Ghana&#39;,
+ &#39;Grenada&#39;,
+ &#39;Guam&#39;,
+ &#39;Guatemala&#39;,
+ &#39;Guernsey&#39;,
+ &#39;Guinea-Bissau&#39;,
+ &#39;Guyana&#39;,
+ &#39;Haiti&#39;,
+ &#39;Honduras&#39;,
+ &#39;India&#39;,
+ &#39;Indonesia&#39;,
+ &#39;Iran (Islamic Rep. of)&#39;,
+ &#39;Iraq&#39;,
+ &#39;Israel&#39;,
+ &#39;Jamaica&#39;,
+ &#39;Jordan&#39;,
+ &#39;Kazakhstan&#39;,
+ &#39;Kenya&#39;,
+ &#39;Kiribati&#39;,
+ &#34;Korea, Dem.Ppl&#39;s.Rep.&#34;,
+ &#39;Korea, Republic of&#39;,
+ &#39;Kosovo&#39;,
+ &#39;Kuwait&#39;,
+ &#34;Lao People&#39;s Dem. Rep.&#34;,
+ &#39;Lebanon&#39;,
+ &#39;Liberia&#39;,
+ &#39;Libya&#39;,
+ &#39;Madagascar&#39;,
+ &#39;Malawi&#39;,
+ &#39;Malaysia&#39;,
+ &#39;Maldives&#39;,
+ &#39;Mali&#39;,
+ &#39;Marshall Islands&#39;,
+ &#39;Martinique&#39;,
+ &#39;Mauritania&#39;,
+ &#39;Mauritius&#39;,
+ &#39;Mexico&#39;,
+ &#39;Micronesia (Fed. States of)&#39;,
+ &#39;Mongolia&#39;,
+ &#39;Montenegro&#39;,
+ &#39;Montserrat&#39;,
+ &#39;Morocco&#39;,
+ &#39;Mozambique&#39;,
+ &#39;Myanmar&#39;,
+ &#39;Namibia&#39;,
+ &#39;Nauru&#39;,
+ &#39;Nepal&#39;,
+ &#39;New Caledonia&#39;,
+ &#39;Nicaragua&#39;,
+ &#39;Niger&#39;,
+ &#39;Nigeria&#39;,
+ &#39;Niue&#39;,
+ &#39;North Macedonia&#39;,
+ &#39;Northern Mariana Islands&#39;,
+ &#39;Oman&#39;,
+ &#39;Other Asia&#39;,
+ &#39;Pakistan&#39;,
+ &#39;Palau&#39;,
+ &#39;Panama&#39;,
+ &#39;Papua New Guinea&#39;,
+ &#39;Peru&#39;,
+ &#39;Philippines&#39;,
+ &#39;Puerto Rico&#39;,
+ &#39;Republic of Moldova&#39;,
+ &#39;Rwanda&#39;,
+ &#39;Samoa&#39;,
+ &#39;Sao Tome and Principe&#39;,
+ &#39;Saudi Arabia&#39;,
+ &#39;Senegal&#39;,
+ &#39;Serbia&#39;,
+ &#39;Seychelles&#39;,
+ &#39;Sierra Leone&#39;,
+ &#39;Singapore&#39;,
+ &#39;Solomon Islands&#39;,
+ &#39;Somalia&#39;,
+ &#39;South Africa&#39;,
+ &#39;South Sudan&#39;,
+ &#39;Sri Lanka&#39;,
+ &#39;St. Helena and Depend.&#39;,
+ &#39;St. Kitts-Nevis&#39;,
+ &#39;St. Lucia&#39;,
+ &#39;St. Vincent-Grenadines&#39;,
+ &#39;State of Palestine&#39;,
+ &#39;Sudan&#39;,
+ &#39;Suriname&#39;,
+ &#39;Thailand&#39;,
+ &#39;Timor-Leste&#39;,
+ &#39;Togo&#39;,
+ &#39;Tonga&#39;,
+ &#39;Trinidad and Tobago&#39;,
+ &#39;Tunisia&#39;,
+ &#39;Turks and Caicos Islands&#39;,
+ &#39;Tuvalu&#39;,
+ &#39;Uganda&#39;,
+ &#39;United Arab Emirates&#39;,
+ &#39;United Rep. of Tanzania&#39;,
+ &#39;United States&#39;,
+ &#39;United States Virgin Is.&#39;,
+ &#39;Uruguay&#39;,
+ &#39;Uzbekistan&#39;,
+ &#39;Vanuatu&#39;,
+ &#39;Venezuela (Bolivar. Rep.)&#39;,
+ &#39;Viet Nam&#39;,
+ &#39;Wallis and Futuna Is.&#39;,
+ &#39;Yemen&#39;,
+ &#39;Zambia&#39;,
+ &#39;Zimbabwe&#39;,
+ &#39;fnSeqID&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[20]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">thefuzz</span> <span class="kn">import</span> <span class="n">process</span> <span class="k">as</span> <span class="n">fz</span>
+
+<span class="c1"># Tomamos un pais de OnlySolar</span>
+<span class="c1"># Miramos en un país de OnlyCO2 y retornamos el más similar</span>
+<span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlySolar_1</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyCO2_1</span><span class="p">)]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[20]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;European Union&#39;, (&#39;Benin&#39;, 60)),
+ (&#39;Iceland&#39;, (&#39;Thailand&#39;, 67)),
+ (&#39;Monaco&#39;, (&#39;Morocco&#39;, 62)),
+ (&#39;United States of America&#39;, (&#39;United States&#39;, 90))]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Selecciono los mejores matches:</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[21]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">match_CO2_Solar</span> <span class="o">=</span> <span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlySolar_1</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyCO2_1</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlySolar_1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;=</span><span class="mi">87</span><span class="p">]</span>
+<span class="n">match_CO2_Solar</span><span class="o">=</span> <span class="p">{</span><span class="n">f</span><span class="p">:</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlySolar_1</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> 
+                 <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyCO2_1</span><span class="p">)</span>
+                 <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlySolar_1</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;=</span><span class="mi">87</span><span class="p">}</span>
+<span class="n">match_CO2_Solar</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[21]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;United States of America&#39;: &#39;United States&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[22]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#OnlyCO2_2=set(co2_new.Country)-set(precipitation_new.Country)</span>
+<span class="c1">#OnlyCO2_2</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[23]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#OnlyPrep_2=set(precipitation_new.Country)-set(co2_new.Country)</span>
+<span class="c1">#OnlyPrep_2</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[24]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#match_Prep_CO2 = [(f,fz.extractOne(f, OnlyPrep_2)) for f in sorted(OnlyCO2_2) if fz.extractOne(f, OnlyPrep_2)[1]&gt;=87]</span>
+<span class="c1">#match_Prep_CO2 = {f:fz.extractOne(f, OnlyPrep_2)[0] </span>
+<span class="c1">#                for f in sorted(OnlyCO2_2)</span>
+<span class="c1">#                 if fz.extractOne(f, OnlyPrep_2)[1] &gt;=87}</span>
+<span class="c1">#match_Prep_CO2</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[25]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#OnlySolar_3=set(solar_new.Country)-set(precipitation_new.Country)</span>
+<span class="c1">#OnlySolar_3</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[26]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#OnlyPrep_3=set(precipitation_new.Country)-set(solar_new.Country)</span>
+<span class="c1">#OnlyPrep_3</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[27]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#[(f,fz.extractOne(f, OnlyPrep_3)) for f in sorted(OnlySolar_3)]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[28]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#match_Prep_Solar = [(f,fz.extractOne(f, OnlyPrep_3)) for f in sorted(OnlySolar_3)</span>
+<span class="c1"># if fz.extractOne(f, OnlyPrep_3)[1]&gt;=87]</span>
+<span class="c1">#match_Prep_Solar = {f:fz.extractOne(f, OnlyPrep_3)[0] </span>
+<span class="c1">#                 for f in sorted(OnlySolar_3)</span>
+<span class="c1">#                 if fz.extractOne(f, OnlyPrep_3)[1] &gt;=87}</span>
+<span class="c1">#match_Prep_Solar</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>Reemplazo los nuevos nombres en el dataframe de CO2</p>
+
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[29]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">co2_new</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="n">match_CO2_Solar</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">co2_new</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[29]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Year</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Australia</td>
+      <td>2020</td>
+      <td>4.003335e+05</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Australia</td>
+      <td>2000</td>
+      <td>3.496355e+05</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Australia</td>
+      <td>1990</td>
+      <td>2.781542e+05</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Austria</td>
+      <td>2020</td>
+      <td>6.203745e+04</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Austria</td>
+      <td>2000</td>
+      <td>6.614978e+04</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>United Kingdom</td>
+      <td>2000</td>
+      <td>5.697442e+05</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>United Kingdom</td>
+      <td>1990</td>
+      <td>6.026521e+05</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>United States</td>
+      <td>2020</td>
+      <td>4.715691e+06</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>United States</td>
+      <td>2000</td>
+      <td>6.016351e+06</td>
+    </tr>
+    <tr>
+      <th>128</th>
+      <td>United States</td>
+      <td>1990</td>
+      <td>5.122496e+06</td>
+    </tr>
+  </tbody>
+</table>
+<p>129 rows × 3 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Merge entre dataframe de CO2 y SolarEnergy manteniendo lo que es común en ambas columnas</p>
 
 </div>
@@ -15310,7 +15496,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[281]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[30]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">co2_solar</span> <span class="o">=</span> <span class="n">co2_new</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">solar_new</span><span class="p">,</span><span class="n">how</span><span class="o">=</span><span class="s1">'inner'</span><span class="p">,</span><span class="n">left_on</span><span class="o">=</span><span class="s1">'Country'</span><span class="p">,</span><span class="n">right_on</span><span class="o">=</span><span class="s1">'Country'</span><span class="p">)</span>
@@ -15332,7 +15518,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[281]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[30]:</div>
 
 
 
@@ -15370,7 +15556,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>0</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15381,7 +15567,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>1</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2000.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15392,7 +15578,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>2</th>
       <td>Australia</td>
       <td>2000</td>
-      <td>349635.486902</td>
+      <td>3.496355e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15403,7 +15589,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>3</th>
       <td>Australia</td>
       <td>2000</td>
-      <td>349635.486902</td>
+      <td>3.496355e+05</td>
       <td>Electricity - total solar production</td>
       <td>2000.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15414,7 +15600,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>4</th>
       <td>Australia</td>
       <td>1990</td>
-      <td>278154.156296</td>
+      <td>2.781542e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15433,63 +15619,63 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>175</th>
-      <td>United Kingdom</td>
-      <td>2020</td>
-      <td>326920.692502</td>
+      <th>184</th>
+      <td>United States</td>
+      <td>2000</td>
+      <td>6.016351e+06</td>
       <td>Electricity - total solar production</td>
       <td>2000.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>1.000</td>
+      <td>709.000</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>176</th>
-      <td>United Kingdom</td>
+      <th>185</th>
+      <td>United States</td>
       <td>2000</td>
-      <td>569744.209114</td>
+      <td>6.016351e+06</td>
+      <td>Electricity - total solar production</td>
+      <td>1990.0</td>
+      <td>Kilowatt-hours, million</td>
+      <td>666.000</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>186</th>
+      <td>United States</td>
+      <td>1990</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>13157.994</td>
+      <td>119328.543</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>177</th>
-      <td>United Kingdom</td>
-      <td>2000</td>
-      <td>569744.209114</td>
+      <th>187</th>
+      <td>United States</td>
+      <td>1990</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
       <td>2000.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>1.000</td>
+      <td>709.000</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>178</th>
-      <td>United Kingdom</td>
+      <th>188</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>602652.078446</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>13157.994</td>
-      <td>NaN</td>
-    </tr>
-    <tr>
-      <th>179</th>
-      <td>United Kingdom</td>
-      <td>1990</td>
-      <td>602652.078446</td>
-      <td>Electricity - total solar production</td>
-      <td>2000.0</td>
-      <td>Kilowatt-hours, million</td>
-      <td>1.000</td>
+      <td>666.000</td>
       <td>NaN</td>
     </tr>
   </tbody>
 </table>
-<p>180 rows × 8 columns</p>
+<p>189 rows × 8 columns</p>
 </div>
 </div>
 
@@ -15516,7 +15702,1008 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[282]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[31]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">OnlyCO2_Solar</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">co2_solar</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">OnlyCO2_Solar</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[31]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;Australia&#39;,
+ &#39;Austria&#39;,
+ &#39;Belarus&#39;,
+ &#39;Belgium&#39;,
+ &#39;Bulgaria&#39;,
+ &#39;Canada&#39;,
+ &#39;Croatia&#39;,
+ &#39;Cyprus&#39;,
+ &#39;Czechia&#39;,
+ &#39;Denmark&#39;,
+ &#39;Estonia&#39;,
+ &#39;Finland&#39;,
+ &#39;France&#39;,
+ &#39;Germany&#39;,
+ &#39;Greece&#39;,
+ &#39;Hungary&#39;,
+ &#39;Ireland&#39;,
+ &#39;Italy&#39;,
+ &#39;Japan&#39;,
+ &#39;Latvia&#39;,
+ &#39;Liechtenstein&#39;,
+ &#39;Lithuania&#39;,
+ &#39;Luxembourg&#39;,
+ &#39;Malta&#39;,
+ &#39;Netherlands&#39;,
+ &#39;New Zealand&#39;,
+ &#39;Norway&#39;,
+ &#39;Poland&#39;,
+ &#39;Portugal&#39;,
+ &#39;Romania&#39;,
+ &#39;Russian Federation&#39;,
+ &#39;Slovakia&#39;,
+ &#39;Slovenia&#39;,
+ &#39;Spain&#39;,
+ &#39;Sweden&#39;,
+ &#39;Switzerland&#39;,
+ &#39;Türkiye&#39;,
+ &#39;Ukraine&#39;,
+ &#39;United Kingdom&#39;,
+ &#39;United States&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[32]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">OnlyPrep</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">co2_solar</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">OnlyPrep</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[32]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;1&#39;,
+ &#39;2&#39;,
+ &#39;3&#39;,
+ &#39;AFGHANISTAN, ISLAMIC STATE OF&#39;,
+ &#39;ALBANIA&#39;,
+ &#39;ALGERIA&#39;,
+ &#39;ARGENTINA&#39;,
+ &#39;ARGENTINA (ANTARCTIC STATIONS)&#39;,
+ &#39;ARMENIA&#39;,
+ &#39;AUSTRALIA&#39;,
+ &#39;AUSTRALIA (ANTARCTIC STATIONS)&#39;,
+ &#39;AUSTRIA&#39;,
+ &#39;AZERBAIJAN&#39;,
+ &#39;BAHAMAS&#39;,
+ &#39;BAHRAIN&#39;,
+ &#39;BELARUS&#39;,
+ &#39;BELGIUM&#39;,
+ &#39;BELIZE&#39;,
+ &#39;BENIN&#39;,
+ &#39;BOSNIA AND HERZEGOVINA&#39;,
+ &#39;BRAZIL&#39;,
+ &#39;BRUNEI DARUSSALAM&#39;,
+ &#39;BULGARIA&#39;,
+ &#39;CAMEROON&#39;,
+ &#39;CANADA&#39;,
+ &#39;CAPE VERDE&#39;,
+ &#39;CHAD&#39;,
+ &#39;CHILE&#39;,
+ &#39;CHILE (ANTARCTIC STATIONS)&#39;,
+ &#39;CHINA&#39;,
+ &#39;COLOMBIA&#39;,
+ &#39;COLOMBIA (SAN ANDRES AND PROVIDENCIA ISLANDS)&#39;,
+ &#39;COSTA RICA&#39;,
+ &#39;CROATIA&#39;,
+ &#39;CUBA&#39;,
+ &#39;CYPRUS&#39;,
+ &#39;CZECH REPUBLIC&#39;,
+ &#39;DENMARK&#39;,
+ &#39;DJIBOUTI&#39;,
+ &#39;DOMINICA&#39;,
+ &#39;DOMINICAN REPUBLIC&#39;,
+ &#39;ECUADOR&#39;,
+ &#39;EGYPT&#39;,
+ &#39;EL SALVADOR&#39;,
+ &#39;ERITREA&#39;,
+ &#39;ESTONIA&#39;,
+ &#39;FIJI&#39;,
+ &#39;FINLAND&#39;,
+ &#39;FRANCE&#39;,
+ &#39;FRANCE (CARIBBEAN ISLANDS, GUADELOUPE, MARTINIQUE)&#39;,
+ &#39;FRANCE (FRENCH DEPARTMENT OF GUYANA)&#39;,
+ &#39;FRANCE (ISLANDS IN THE INDIAN OCEAN)&#39;,
+ &#39;FRENCH POLYNESIA&#39;,
+ &#39;GABON&#39;,
+ &#39;GEORGIA&#39;,
+ &#39;GERMANY&#39;,
+ &#39;GREECE&#39;,
+ &#39;GREENLAND&#39;,
+ &#39;GUINEA&#39;,
+ &#39;GUYANA&#39;,
+ &#39;HONDURAS&#39;,
+ &#39;HONG KONG&#39;,
+ &#39;HUNGARY&#39;,
+ &#39;ICELAND&#39;,
+ &#39;INDIA&#39;,
+ &#39;IRAN, ISLAMIC REPUBLIC OF&#39;,
+ &#39;IRELAND&#39;,
+ &#39;ISRAEL&#39;,
+ &#39;ITALY&#39;,
+ &#39;IVORY COAST&#39;,
+ &#39;JAPAN&#39;,
+ &#39;JORDAN&#39;,
+ &#39;KAZAKSTAN (ASIA)&#39;,
+ &#39;KAZAKSTAN (EUROPE)&#39;,
+ &#39;KENYA&#39;,
+ &#34;KOREA, DEMOCRATIC PEOPLE&#39;S REPUBLIC OF&#34;,
+ &#39;KOREA, REPUBLIC OF&#39;,
+ &#39;KUWAIT&#39;,
+ &#39;KYRGYZ REPUBLIC&#39;,
+ &#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC&#34;,
+ &#39;LATVIA&#39;,
+ &#39;LEBANON&#39;,
+ &#39;LITHUANIA&#39;,
+ &#39;LUXEMBOURG&#39;,
+ &#39;MADAGASCAR&#39;,
+ &#39;MALAWI&#39;,
+ &#39;MALAYSIA&#39;,
+ &#39;MALDIVES&#39;,
+ &#39;MALI&#39;,
+ &#39;MALTA&#39;,
+ &#39;MAURITIUS&#39;,
+ &#39;MEXICO&#39;,
+ &#39;MOLDOVA, REPUBLIC OF&#39;,
+ &#39;MONGOLIA&#39;,
+ &#39;MOROCCO&#39;,
+ &#39;MYANMAR&#39;,
+ &#39;NETHERLANDS&#39;,
+ &#39;NETHERLANDS ANTILLES AND ARUBA&#39;,
+ &#39;NEW CALEDONIA&#39;,
+ &#39;NEW ZEALAND&#39;,
+ &#39;NICARAGUA&#39;,
+ &#39;NIGER&#39;,
+ &#39;NIGERIA&#39;,
+ &#39;NORWAY&#39;,
+ &#39;OMAN&#39;,
+ &#39;PAKISTAN&#39;,
+ &#39;PARAGUAY&#39;,
+ &#39;PERU&#39;,
+ &#39;PHILIPPINES&#39;,
+ &#39;POLAND&#39;,
+ &#39;PORTUGAL&#39;,
+ &#39;PORTUGAL (MADEIRA)&#39;,
+ &#39;QATAR&#39;,
+ &#39;ROMANIA&#39;,
+ &#39;RUSSIAN FEDERATION (ASIA)&#39;,
+ &#39;RUSSIAN FEDERATION (EUROPE)&#39;,
+ &#39;RWANDA&#39;,
+ &#39;SAUDI ARABIA&#39;,
+ &#39;SENEGAL&#39;,
+ &#39;SEYCHELLES&#39;,
+ &#39;SIERRA LEONE&#39;,
+ &#39;SINGAPORE&#39;,
+ &#39;SLOVAKIA&#39;,
+ &#39;SLOVENIA&#39;,
+ &#39;SOLOMON ISLANDS&#39;,
+ &#39;SOUTH AFRICA&#39;,
+ &#39;SPAIN&#39;,
+ &#39;SPAIN (CANARY ISLANDS, CEUTA AND MELILLA)&#39;,
+ &#39;SRI LANKA&#39;,
+ &#39;SUDAN&#39;,
+ &#39;SWEDEN&#39;,
+ &#39;SWITZERLAND&#39;,
+ &#39;SYRIAN ARAB REPUBLIC&#39;,
+ &#39;TAJIKISTAN&#39;,
+ &#39;TANZANIA, UNITED REPUBLIC OF&#39;,
+ &#39;THAILAND&#39;,
+ &#39;THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA&#39;,
+ &#39;TOGO&#39;,
+ &#39;TRINIDAD AND TOBAGO&#39;,
+ &#39;TUNISIA&#39;,
+ &#39;TURKEY&#39;,
+ &#39;TURKMENISTAN&#39;,
+ &#39;UKRAINE&#39;,
+ &#39;UNITED ARAB EMIRATES&#39;,
+ &#39;UNITED KINGDOM OF GREAT BRITAIN &amp; NORTHERN IRELAND&#39;,
+ &#39;UNITED STATES OF AMERICA&#39;,
+ &#39;UNITED STATES OF AMERICA (ANTARCTIC STATIONS)&#39;,
+ &#39;UNITED STATES OF AMERICA (PACIFIC ISLANDS)&#39;,
+ &#39;URUGUAY&#39;,
+ &#39;UZBEKISTAN&#39;,
+ &#39;VENEZUELA&#39;,
+ &#39;YUGOSLAVIA&#39;,
+ &#39;ZAMBIA&#39;,
+ &#39;ZIMBABWE&#39;,
+ &#39;footnoteSeqID&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyCO2_Solar</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyPrep</span><span class="p">)]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;1&#39;, (&#39;Latvia&#39;, 0)),
+ (&#39;2&#39;, (&#39;Latvia&#39;, 0)),
+ (&#39;3&#39;, (&#39;Latvia&#39;, 0)),
+ (&#39;AFGHANISTAN, ISLAMIC STATE OF&#39;, (&#39;Spain&#39;, 54)),
+ (&#39;ALBANIA&#39;, (&#39;Lithuania&#39;, 62)),
+ (&#39;ALGERIA&#39;, (&#39;Bulgaria&#39;, 67)),
+ (&#39;ARGENTINA&#39;, (&#39;Latvia&#39;, 54)),
+ (&#39;ARGENTINA (ANTARCTIC STATIONS)&#39;, (&#39;Malta&#39;, 57)),
+ (&#39;ARMENIA&#39;, (&#39;Romania&#39;, 71)),
+ (&#39;AUSTRALIA&#39;, (&#39;Australia&#39;, 100)),
+ (&#39;AUSTRALIA (ANTARCTIC STATIONS)&#39;, (&#39;Australia&#39;, 90)),
+ (&#39;AUSTRIA&#39;, (&#39;Austria&#39;, 100)),
+ (&#39;AZERBAIJAN&#39;, (&#39;Japan&#39;, 68)),
+ (&#39;BAHAMAS&#39;, (&#39;Canada&#39;, 46)),
+ (&#39;BAHRAIN&#39;, (&#39;Ukraine&#39;, 57)),
+ (&#39;BELARUS&#39;, (&#39;Belarus&#39;, 100)),
+ (&#39;BELGIUM&#39;, (&#39;Belgium&#39;, 100)),
+ (&#39;BELIZE&#39;, (&#39;Belgium&#39;, 62)),
+ (&#39;BENIN&#39;, (&#39;Liechtenstein&#39;, 68)),
+ (&#39;BOSNIA AND HERZEGOVINA&#39;, (&#39;Poland&#39;, 57)),
+ (&#39;BRAZIL&#39;, (&#39;Australia&#39;, 49)),
+ (&#39;BRUNEI DARUSSALAM&#39;, (&#39;Australia&#39;, 60)),
+ (&#39;BULGARIA&#39;, (&#39;Bulgaria&#39;, 100)),
+ (&#39;CAMEROON&#39;, (&#39;Russian Federation&#39;, 48)),
+ (&#39;CANADA&#39;, (&#39;Canada&#39;, 100)),
+ (&#39;CAPE VERDE&#39;, (&#39;Sweden&#39;, 54)),
+ (&#39;CHAD&#39;, (&#39;Czechia&#39;, 68)),
+ (&#39;CHILE&#39;, (&#39;Liechtenstein&#39;, 54)),
+ (&#39;CHILE (ANTARCTIC STATIONS)&#39;, (&#39;Malta&#39;, 57)),
+ (&#39;CHINA&#39;, (&#39;Czechia&#39;, 67)),
+ (&#39;COLOMBIA&#39;, (&#39;Croatia&#39;, 53)),
+ (&#39;COLOMBIA (SAN ANDRES AND PROVIDENCIA ISLANDS)&#39;, (&#39;Poland&#39;, 65)),
+ (&#39;COSTA RICA&#39;, (&#39;Croatia&#39;, 59)),
+ (&#39;CROATIA&#39;, (&#39;Croatia&#39;, 100)),
+ (&#39;CUBA&#39;, (&#39;Canada&#39;, 60)),
+ (&#39;CYPRUS&#39;, (&#39;Cyprus&#39;, 100)),
+ (&#39;CZECH REPUBLIC&#39;, (&#39;Czechia&#39;, 75)),
+ (&#39;DENMARK&#39;, (&#39;Denmark&#39;, 100)),
+ (&#39;DJIBOUTI&#39;, (&#39;United Kingdom&#39;, 43)),
+ (&#39;DOMINICA&#39;, (&#39;Romania&#39;, 67)),
+ (&#39;DOMINICAN REPUBLIC&#39;, (&#39;Romania&#39;, 64)),
+ (&#39;ECUADOR&#39;, (&#39;Canada&#39;, 46)),
+ (&#39;EGYPT&#39;, (&#39;Netherlands&#39;, 45)),
+ (&#39;EL SALVADOR&#39;, (&#39;New Zealand&#39;, 55)),
+ (&#39;ERITREA&#39;, (&#39;Ireland&#39;, 57)),
+ (&#39;ESTONIA&#39;, (&#39;Estonia&#39;, 100)),
+ (&#39;FIJI&#39;, (&#39;Finland&#39;, 60)),
+ (&#39;FINLAND&#39;, (&#39;Finland&#39;, 100)),
+ (&#39;FRANCE&#39;, (&#39;France&#39;, 100)),
+ (&#39;FRANCE (CARIBBEAN ISLANDS, GUADELOUPE, MARTINIQUE)&#39;, (&#39;Ireland&#39;, 64)),
+ (&#39;FRANCE (FRENCH DEPARTMENT OF GUYANA)&#39;, (&#39;France&#39;, 90)),
+ (&#39;FRANCE (ISLANDS IN THE INDIAN OCEAN)&#39;, (&#39;France&#39;, 90)),
+ (&#39;FRENCH POLYNESIA&#39;, (&#39;France&#39;, 65)),
+ (&#39;GABON&#39;, (&#39;Russian Federation&#39;, 54)),
+ (&#39;GEORGIA&#39;, (&#39;Estonia&#39;, 57)),
+ (&#39;GERMANY&#39;, (&#39;Germany&#39;, 100)),
+ (&#39;GREECE&#39;, (&#39;Greece&#39;, 100)),
+ (&#39;GREENLAND&#39;, (&#39;Ireland&#39;, 75)),
+ (&#39;GUINEA&#39;, (&#39;Ukraine&#39;, 62)),
+ (&#39;GUYANA&#39;, (&#39;Lithuania&#39;, 65)),
+ (&#39;HONDURAS&#39;, (&#39;Russian Federation&#39;, 45)),
+ (&#39;HONG KONG&#39;, (&#39;United Kingdom&#39;, 43)),
+ (&#39;HUNGARY&#39;, (&#39;Hungary&#39;, 100)),
+ (&#39;ICELAND&#39;, (&#39;Ireland&#39;, 86)),
+ (&#39;INDIA&#39;, (&#39;Slovenia&#39;, 68)),
+ (&#39;IRAN, ISLAMIC REPUBLIC OF&#39;, (&#39;Ireland&#39;, 65)),
+ (&#39;IRELAND&#39;, (&#39;Ireland&#39;, 100)),
+ (&#39;ISRAEL&#39;, (&#39;Ireland&#39;, 62)),
+ (&#39;ITALY&#39;, (&#39;Italy&#39;, 100)),
+ (&#39;IVORY COAST&#39;, (&#39;Croatia&#39;, 61)),
+ (&#39;JAPAN&#39;, (&#39;Japan&#39;, 100)),
+ (&#39;JORDAN&#39;, (&#39;Japan&#39;, 55)),
+ (&#39;KAZAKSTAN (ASIA)&#39;, (&#39;Austria&#39;, 65)),
+ (&#39;KAZAKSTAN (EUROPE)&#39;, (&#39;Spain&#39;, 57)),
+ (&#39;KENYA&#39;, (&#39;Slovenia&#39;, 60)),
+ (&#34;KOREA, DEMOCRATIC PEOPLE&#39;S REPUBLIC OF&#34;, (&#39;Croatia&#39;, 64)),
+ (&#39;KOREA, REPUBLIC OF&#39;, (&#39;Ukraine&#39;, 49)),
+ (&#39;KUWAIT&#39;, (&#39;Switzerland&#39;, 54)),
+ (&#39;KYRGYZ REPUBLIC&#39;, (&#39;Belgium&#39;, 49)),
+ (&#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC&#34;, (&#39;Croatia&#39;, 64)),
+ (&#39;LATVIA&#39;, (&#39;Latvia&#39;, 100)),
+ (&#39;LEBANON&#39;, (&#39;Russian Federation&#39;, 51)),
+ (&#39;LITHUANIA&#39;, (&#39;Lithuania&#39;, 100)),
+ (&#39;LUXEMBOURG&#39;, (&#39;Luxembourg&#39;, 100)),
+ (&#39;MADAGASCAR&#39;, (&#39;Malta&#39;, 60)),
+ (&#39;MALAWI&#39;, (&#39;Malta&#39;, 73)),
+ (&#39;MALAYSIA&#39;, (&#39;Malta&#39;, 80)),
+ (&#39;MALDIVES&#39;, (&#39;Malta&#39;, 68)),
+ (&#39;MALI&#39;, (&#39;Australia&#39;, 68)),
+ (&#39;MALTA&#39;, (&#39;Malta&#39;, 100)),
+ (&#39;MAURITIUS&#39;, (&#39;Malta&#39;, 51)),
+ (&#39;MEXICO&#39;, (&#39;Russian Federation&#39;, 45)),
+ (&#39;MOLDOVA, REPUBLIC OF&#39;, (&#39;Poland&#39;, 54)),
+ (&#39;MONGOLIA&#39;, (&#39;Estonia&#39;, 53)),
+ (&#39;MOROCCO&#39;, (&#39;Luxembourg&#39;, 35)),
+ (&#39;MYANMAR&#39;, (&#39;Denmark&#39;, 57)),
+ (&#39;NETHERLANDS&#39;, (&#39;Netherlands&#39;, 100)),
+ (&#39;NETHERLANDS ANTILLES AND ARUBA&#39;, (&#39;Netherlands&#39;, 90)),
+ (&#39;NEW CALEDONIA&#39;, (&#39;Estonia&#39;, 69)),
+ (&#39;NEW ZEALAND&#39;, (&#39;New Zealand&#39;, 100)),
+ (&#39;NICARAGUA&#39;, (&#39;Canada&#39;, 53)),
+ (&#39;NIGER&#39;, (&#39;Switzerland&#39;, 54)),
+ (&#39;NIGERIA&#39;, (&#39;Germany&#39;, 57)),
+ (&#39;NORWAY&#39;, (&#39;Norway&#39;, 100)),
+ (&#39;OMAN&#39;, (&#39;Romania&#39;, 90)),
+ (&#39;PAKISTAN&#39;, (&#39;Spain&#39;, 62)),
+ (&#39;PARAGUAY&#39;, (&#39;Spain&#39;, 51)),
+ (&#39;PERU&#39;, (&#39;Cyprus&#39;, 68)),
+ (&#39;PHILIPPINES&#39;, (&#39;Spain&#39;, 54)),
+ (&#39;POLAND&#39;, (&#39;Poland&#39;, 100)),
+ (&#39;PORTUGAL&#39;, (&#39;Portugal&#39;, 100)),
+ (&#39;PORTUGAL (MADEIRA)&#39;, (&#39;Portugal&#39;, 90)),
+ (&#39;QATAR&#39;, (&#39;Malta&#39;, 60)),
+ (&#39;ROMANIA&#39;, (&#39;Romania&#39;, 100)),
+ (&#39;RUSSIAN FEDERATION (ASIA)&#39;, (&#39;Russian Federation&#39;, 95)),
+ (&#39;RUSSIAN FEDERATION (EUROPE)&#39;, (&#39;Russian Federation&#39;, 95)),
+ (&#39;RWANDA&#39;, (&#39;Canada&#39;, 67)),
+ (&#39;SAUDI ARABIA&#39;, (&#39;Croatia&#39;, 60)),
+ (&#39;SENEGAL&#39;, (&#39;Slovenia&#39;, 53)),
+ (&#39;SEYCHELLES&#39;, (&#39;Netherlands&#39;, 48)),
+ (&#39;SIERRA LEONE&#39;, (&#39;Switzerland&#39;, 52)),
+ (&#39;SINGAPORE&#39;, (&#39;Spain&#39;, 68)),
+ (&#39;SLOVAKIA&#39;, (&#39;Slovakia&#39;, 100)),
+ (&#39;SLOVENIA&#39;, (&#39;Slovenia&#39;, 100)),
+ (&#39;SOLOMON ISLANDS&#39;, (&#39;Ireland&#39;, 66)),
+ (&#39;SOUTH AFRICA&#39;, (&#39;Austria&#39;, 55)),
+ (&#39;SPAIN&#39;, (&#39;Spain&#39;, 100)),
+ (&#39;SPAIN (CANARY ISLANDS, CEUTA AND MELILLA)&#39;, (&#39;Ireland&#39;, 64)),
+ (&#39;SRI LANKA&#39;, (&#39;Slovakia&#39;, 59)),
+ (&#39;SUDAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;SWEDEN&#39;, (&#39;Sweden&#39;, 100)),
+ (&#39;SWITZERLAND&#39;, (&#39;Switzerland&#39;, 100)),
+ (&#39;SYRIAN ARAB REPUBLIC&#39;, (&#39;Austria&#39;, 60)),
+ (&#39;TAJIKISTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;TANZANIA, UNITED REPUBLIC OF&#39;, (&#39;United Kingdom&#39;, 86)),
+ (&#39;THAILAND&#39;, (&#39;Ireland&#39;, 67)),
+ (&#39;THE FORMER YUGOSLAV REPUBLIC OF MACEDONIA&#39;, (&#39;Estonia&#39;, 69)),
+ (&#39;TOGO&#39;, (&#39;Portugal&#39;, 45)),
+ (&#39;TRINIDAD AND TOBAGO&#39;, (&#39;Poland&#39;, 57)),
+ (&#39;TUNISIA&#39;, (&#39;Lithuania&#39;, 62)),
+ (&#39;TURKEY&#39;, (&#39;Türkiye&#39;, 62)),
+ (&#39;TURKMENISTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;UKRAINE&#39;, (&#39;Ukraine&#39;, 100)),
+ (&#39;UNITED ARAB EMIRATES&#39;, (&#39;United States&#39;, 86)),
+ (&#39;UNITED KINGDOM OF GREAT BRITAIN &amp; NORTHERN IRELAND&#39;,
+  (&#39;United Kingdom&#39;, 90)),
+ (&#39;UNITED STATES OF AMERICA&#39;, (&#39;United States&#39;, 90)),
+ (&#39;UNITED STATES OF AMERICA (ANTARCTIC STATIONS)&#39;, (&#39;United States&#39;, 90)),
+ (&#39;UNITED STATES OF AMERICA (PACIFIC ISLANDS)&#39;, (&#39;United States&#39;, 90)),
+ (&#39;URUGUAY&#39;, (&#39;Hungary&#39;, 57)),
+ (&#39;UZBEKISTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;VENEZUELA&#39;, (&#39;New Zealand&#39;, 60)),
+ (&#39;YUGOSLAVIA&#39;, (&#39;Latvia&#39;, 82)),
+ (&#39;ZAMBIA&#39;, (&#39;Australia&#39;, 54)),
+ (&#39;ZIMBABWE&#39;, (&#39;Czechia&#39;, 40)),
+ (&#39;footnoteSeqID&#39;, (&#39;Sweden&#39;, 49))]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[34]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">match_CO2_Solar_Prep</span> <span class="o">=</span> <span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyCO2_Solar</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyPrep</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyCO2_Solar</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;=</span><span class="mi">87</span><span class="p">]</span>
+<span class="n">match_CO2_Solar_Prep</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[34]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;AUSTRALIA&#39;, (&#39;Australia&#39;, 100)),
+ (&#39;AUSTRALIA (ANTARCTIC STATIONS)&#39;, (&#39;Australia&#39;, 90)),
+ (&#39;AUSTRIA&#39;, (&#39;Austria&#39;, 100)),
+ (&#39;BELARUS&#39;, (&#39;Belarus&#39;, 100)),
+ (&#39;BELGIUM&#39;, (&#39;Belgium&#39;, 100)),
+ (&#39;BULGARIA&#39;, (&#39;Bulgaria&#39;, 100)),
+ (&#39;CANADA&#39;, (&#39;Canada&#39;, 100)),
+ (&#39;CROATIA&#39;, (&#39;Croatia&#39;, 100)),
+ (&#39;CYPRUS&#39;, (&#39;Cyprus&#39;, 100)),
+ (&#39;DENMARK&#39;, (&#39;Denmark&#39;, 100)),
+ (&#39;ESTONIA&#39;, (&#39;Estonia&#39;, 100)),
+ (&#39;FINLAND&#39;, (&#39;Finland&#39;, 100)),
+ (&#39;FRANCE&#39;, (&#39;France&#39;, 100)),
+ (&#39;FRANCE (FRENCH DEPARTMENT OF GUYANA)&#39;, (&#39;France&#39;, 90)),
+ (&#39;FRANCE (ISLANDS IN THE INDIAN OCEAN)&#39;, (&#39;France&#39;, 90)),
+ (&#39;GERMANY&#39;, (&#39;Germany&#39;, 100)),
+ (&#39;GREECE&#39;, (&#39;Greece&#39;, 100)),
+ (&#39;HUNGARY&#39;, (&#39;Hungary&#39;, 100)),
+ (&#39;IRELAND&#39;, (&#39;Ireland&#39;, 100)),
+ (&#39;ITALY&#39;, (&#39;Italy&#39;, 100)),
+ (&#39;JAPAN&#39;, (&#39;Japan&#39;, 100)),
+ (&#39;LATVIA&#39;, (&#39;Latvia&#39;, 100)),
+ (&#39;LITHUANIA&#39;, (&#39;Lithuania&#39;, 100)),
+ (&#39;LUXEMBOURG&#39;, (&#39;Luxembourg&#39;, 100)),
+ (&#39;MALTA&#39;, (&#39;Malta&#39;, 100)),
+ (&#39;NETHERLANDS&#39;, (&#39;Netherlands&#39;, 100)),
+ (&#39;NETHERLANDS ANTILLES AND ARUBA&#39;, (&#39;Netherlands&#39;, 90)),
+ (&#39;NEW ZEALAND&#39;, (&#39;New Zealand&#39;, 100)),
+ (&#39;NORWAY&#39;, (&#39;Norway&#39;, 100)),
+ (&#39;OMAN&#39;, (&#39;Romania&#39;, 90)),
+ (&#39;POLAND&#39;, (&#39;Poland&#39;, 100)),
+ (&#39;PORTUGAL&#39;, (&#39;Portugal&#39;, 100)),
+ (&#39;PORTUGAL (MADEIRA)&#39;, (&#39;Portugal&#39;, 90)),
+ (&#39;ROMANIA&#39;, (&#39;Romania&#39;, 100)),
+ (&#39;RUSSIAN FEDERATION (ASIA)&#39;, (&#39;Russian Federation&#39;, 95)),
+ (&#39;RUSSIAN FEDERATION (EUROPE)&#39;, (&#39;Russian Federation&#39;, 95)),
+ (&#39;SLOVAKIA&#39;, (&#39;Slovakia&#39;, 100)),
+ (&#39;SLOVENIA&#39;, (&#39;Slovenia&#39;, 100)),
+ (&#39;SPAIN&#39;, (&#39;Spain&#39;, 100)),
+ (&#39;SWEDEN&#39;, (&#39;Sweden&#39;, 100)),
+ (&#39;SWITZERLAND&#39;, (&#39;Switzerland&#39;, 100)),
+ (&#39;UKRAINE&#39;, (&#39;Ukraine&#39;, 100)),
+ (&#39;UNITED KINGDOM OF GREAT BRITAIN &amp; NORTHERN IRELAND&#39;,
+  (&#39;United Kingdom&#39;, 90)),
+ (&#39;UNITED STATES OF AMERICA&#39;, (&#39;United States&#39;, 90)),
+ (&#39;UNITED STATES OF AMERICA (ANTARCTIC STATIONS)&#39;, (&#39;United States&#39;, 90)),
+ (&#39;UNITED STATES OF AMERICA (PACIFIC ISLANDS)&#39;, (&#39;United States&#39;, 90))]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[35]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">match_CO2_Solar_Prep</span><span class="o">=</span> <span class="p">{</span><span class="n">f</span><span class="p">:</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyCO2_Solar</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> 
+                 <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyPrep</span><span class="p">)</span>
+                 <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyCO2_Solar</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;=</span><span class="mi">87</span><span class="p">}</span>
+<span class="n">match_CO2_Solar_Prep</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[35]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;AUSTRALIA&#39;: &#39;Australia&#39;,
+ &#39;AUSTRALIA (ANTARCTIC STATIONS)&#39;: &#39;Australia&#39;,
+ &#39;AUSTRIA&#39;: &#39;Austria&#39;,
+ &#39;BELARUS&#39;: &#39;Belarus&#39;,
+ &#39;BELGIUM&#39;: &#39;Belgium&#39;,
+ &#39;BULGARIA&#39;: &#39;Bulgaria&#39;,
+ &#39;CANADA&#39;: &#39;Canada&#39;,
+ &#39;CROATIA&#39;: &#39;Croatia&#39;,
+ &#39;CYPRUS&#39;: &#39;Cyprus&#39;,
+ &#39;DENMARK&#39;: &#39;Denmark&#39;,
+ &#39;ESTONIA&#39;: &#39;Estonia&#39;,
+ &#39;FINLAND&#39;: &#39;Finland&#39;,
+ &#39;FRANCE&#39;: &#39;France&#39;,
+ &#39;FRANCE (FRENCH DEPARTMENT OF GUYANA)&#39;: &#39;France&#39;,
+ &#39;FRANCE (ISLANDS IN THE INDIAN OCEAN)&#39;: &#39;France&#39;,
+ &#39;GERMANY&#39;: &#39;Germany&#39;,
+ &#39;GREECE&#39;: &#39;Greece&#39;,
+ &#39;HUNGARY&#39;: &#39;Hungary&#39;,
+ &#39;IRELAND&#39;: &#39;Ireland&#39;,
+ &#39;ITALY&#39;: &#39;Italy&#39;,
+ &#39;JAPAN&#39;: &#39;Japan&#39;,
+ &#39;LATVIA&#39;: &#39;Latvia&#39;,
+ &#39;LITHUANIA&#39;: &#39;Lithuania&#39;,
+ &#39;LUXEMBOURG&#39;: &#39;Luxembourg&#39;,
+ &#39;MALTA&#39;: &#39;Malta&#39;,
+ &#39;NETHERLANDS&#39;: &#39;Netherlands&#39;,
+ &#39;NETHERLANDS ANTILLES AND ARUBA&#39;: &#39;Netherlands&#39;,
+ &#39;NEW ZEALAND&#39;: &#39;New Zealand&#39;,
+ &#39;NORWAY&#39;: &#39;Norway&#39;,
+ &#39;OMAN&#39;: &#39;Romania&#39;,
+ &#39;POLAND&#39;: &#39;Poland&#39;,
+ &#39;PORTUGAL&#39;: &#39;Portugal&#39;,
+ &#39;PORTUGAL (MADEIRA)&#39;: &#39;Portugal&#39;,
+ &#39;ROMANIA&#39;: &#39;Romania&#39;,
+ &#39;RUSSIAN FEDERATION (ASIA)&#39;: &#39;Russian Federation&#39;,
+ &#39;RUSSIAN FEDERATION (EUROPE)&#39;: &#39;Russian Federation&#39;,
+ &#39;SLOVAKIA&#39;: &#39;Slovakia&#39;,
+ &#39;SLOVENIA&#39;: &#39;Slovenia&#39;,
+ &#39;SPAIN&#39;: &#39;Spain&#39;,
+ &#39;SWEDEN&#39;: &#39;Sweden&#39;,
+ &#39;SWITZERLAND&#39;: &#39;Switzerland&#39;,
+ &#39;UKRAINE&#39;: &#39;Ukraine&#39;,
+ &#39;UNITED KINGDOM OF GREAT BRITAIN &amp; NORTHERN IRELAND&#39;: &#39;United Kingdom&#39;,
+ &#39;UNITED STATES OF AMERICA&#39;: &#39;United States&#39;,
+ &#39;UNITED STATES OF AMERICA (ANTARCTIC STATIONS)&#39;: &#39;United States&#39;,
+ &#39;UNITED STATES OF AMERICA (PACIFIC ISLANDS)&#39;: &#39;United States&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[36]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">precipitation_new</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="n">match_CO2_Solar_Prep</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">precipitation_new</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[36]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Station Name</th>
+      <th>Period</th>
+      <th>Statistic Description</th>
+      <th>Unit</th>
+      <th>Jan</th>
+      <th>Jan Footnotes</th>
+      <th>Feb</th>
+      <th>Feb Footnotes</th>
+      <th>Mar</th>
+      <th>...</th>
+      <th>Oct</th>
+      <th>Oct Footnotes</th>
+      <th>Nov</th>
+      <th>Nov Footnotes</th>
+      <th>Dec</th>
+      <th>Dec Footnotes</th>
+      <th>Annual</th>
+      <th>Annual Footnotes</th>
+      <th>Annual NCDC Computed Value</th>
+      <th>Annual NCDC Computed Value Footnotes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>AFGHANISTAN, ISLAMIC STATE OF</td>
+      <td>Faiz abad</td>
+      <td>1961-1983</td>
+      <td>Mean Monthly Value</td>
+      <td>mm</td>
+      <td>49.4</td>
+      <td>NaN</td>
+      <td>65.0</td>
+      <td>NaN</td>
+      <td>91.9</td>
+      <td>...</td>
+      <td>23.4</td>
+      <td>NaN</td>
+      <td>29.7</td>
+      <td>NaN</td>
+      <td>34.1</td>
+      <td>NaN</td>
+      <td>40.4</td>
+      <td>NaN</td>
+      <td>484.9</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>AFGHANISTAN, ISLAMIC STATE OF</td>
+      <td>Sheberghan</td>
+      <td>1959-1983</td>
+      <td>Mean Monthly Value</td>
+      <td>mm</td>
+      <td>42.3</td>
+      <td>NaN</td>
+      <td>44.3</td>
+      <td>NaN</td>
+      <td>56.4</td>
+      <td>...</td>
+      <td>6.6</td>
+      <td>NaN</td>
+      <td>13.6</td>
+      <td>NaN</td>
+      <td>29.8</td>
+      <td>NaN</td>
+      <td>19.2</td>
+      <td>NaN</td>
+      <td>230.5</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>AFGHANISTAN, ISLAMIC STATE OF</td>
+      <td>Mazar-i-Sharif</td>
+      <td>1958-1983</td>
+      <td>Mean Monthly Value</td>
+      <td>mm</td>
+      <td>28.9</td>
+      <td>NaN</td>
+      <td>34.8</td>
+      <td>NaN</td>
+      <td>43.8</td>
+      <td>...</td>
+      <td>3.9</td>
+      <td>NaN</td>
+      <td>13.5</td>
+      <td>NaN</td>
+      <td>21.7</td>
+      <td>NaN</td>
+      <td>15.5</td>
+      <td>NaN</td>
+      <td>186.4</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>AFGHANISTAN, ISLAMIC STATE OF</td>
+      <td>Kunduz</td>
+      <td>1968-1983</td>
+      <td>Mean Monthly Value</td>
+      <td>mm</td>
+      <td>44.0</td>
+      <td>NaN</td>
+      <td>56.5</td>
+      <td>NaN</td>
+      <td>76.7</td>
+      <td>...</td>
+      <td>7.3</td>
+      <td>NaN</td>
+      <td>23.7</td>
+      <td>NaN</td>
+      <td>28.4</td>
+      <td>NaN</td>
+      <td>26.8</td>
+      <td>NaN</td>
+      <td>322.6</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>AFGHANISTAN, ISLAMIC STATE OF</td>
+      <td>Maimana</td>
+      <td>1964-1983</td>
+      <td>Mean Monthly Value</td>
+      <td>mm</td>
+      <td>49.9</td>
+      <td>NaN</td>
+      <td>60.5</td>
+      <td>NaN</td>
+      <td>82.2</td>
+      <td>...</td>
+      <td>9.6</td>
+      <td>NaN</td>
+      <td>20.9</td>
+      <td>NaN</td>
+      <td>44.7</td>
+      <td>NaN</td>
+      <td>29.6</td>
+      <td>NaN</td>
+      <td>355.6</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>4258</th>
+      <td>ZIMBABWE</td>
+      <td>Beitbridge</td>
+      <td>1961-1990</td>
+      <td>Mean Monthly Value</td>
+      <td>mm</td>
+      <td>56.8</td>
+      <td>NaN</td>
+      <td>54.8</td>
+      <td>NaN</td>
+      <td>34.1</td>
+      <td>...</td>
+      <td>28.4</td>
+      <td>NaN</td>
+      <td>48.7</td>
+      <td>NaN</td>
+      <td>53.7</td>
+      <td>NaN</td>
+      <td>332.0</td>
+      <td>NaN</td>
+      <td>332.0</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4259</th>
+      <td>footnoteSeqID</td>
+      <td>Footnote</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4260</th>
+      <td>1</td>
+      <td>code for missing value</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4261</th>
+      <td>2</td>
+      <td>trace value for precipitation, rainfall, snowfall</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>4262</th>
+      <td>3</td>
+      <td>code for value &gt; 0.0 but &lt; the smallest unit a...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>4263 rows × 33 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[37]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">co2_solar_prep</span> <span class="o">=</span> <span class="n">co2_solar</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">precipitation_new</span><span class="p">,</span><span class="n">how</span><span class="o">=</span><span class="s1">'inner'</span><span class="p">,</span><span class="n">left_on</span><span class="o">=</span><span class="s1">'Country'</span><span class="p">,</span><span class="n">right_on</span><span class="o">=</span><span class="s1">'Country'</span><span class="p">)</span>
@@ -15538,7 +16725,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[282]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[37]:</div>
 
 
 
@@ -15589,7 +16776,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>0</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15613,7 +16800,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>1</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15637,7 +16824,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>2</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15661,7 +16848,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>3</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15685,7 +16872,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>4</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -15730,128 +16917,128 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>7768</th>
-      <td>Ukraine</td>
+      <th>15508</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>DNEPROPETROVSK</td>
+      <td>POHNPEI, PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>32.0</td>
+      <td>424.4</td>
       <td>NaN</td>
-      <td>42.0</td>
+      <td>399.8</td>
       <td>NaN</td>
-      <td>52.0</td>
+      <td>386.6</td>
       <td>NaN</td>
-      <td>513.0</td>
+      <td>4769.1</td>
       <td>NaN</td>
-      <td>513.0</td>
+      <td>4769.1</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>7769</th>
-      <td>Ukraine</td>
+      <th>15509</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>DONECK</td>
+      <td>KWAJALEIN ISLAND, PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>27.0</td>
+      <td>302.5</td>
       <td>NaN</td>
-      <td>42.0</td>
+      <td>270.8</td>
       <td>NaN</td>
-      <td>52.0</td>
+      <td>205.7</td>
       <td>NaN</td>
-      <td>515.0</td>
+      <td>2593.0</td>
       <td>NaN</td>
-      <td>515.0</td>
+      <td>2593.0</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>7770</th>
-      <td>Ukraine</td>
+      <th>15510</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>LUGANSK</td>
+      <td>MAJURO, PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>27.0</td>
+      <td>351.5</td>
       <td>NaN</td>
-      <td>42.0</td>
+      <td>325.1</td>
       <td>NaN</td>
-      <td>43.0</td>
+      <td>301.0</td>
       <td>NaN</td>
-      <td>473.0</td>
+      <td>3336.0</td>
       <td>NaN</td>
-      <td>473.0</td>
+      <td>3336.0</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>7771</th>
-      <td>Ukraine</td>
+      <th>15511</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>HAPOROZ'E</td>
+      <td>KOROR/W CAROLINE ISLANDS PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>27.0</td>
+      <td>352.3</td>
       <td>NaN</td>
-      <td>43.0</td>
+      <td>287.5</td>
       <td>NaN</td>
-      <td>52.0</td>
+      <td>304.3</td>
       <td>NaN</td>
-      <td>510.0</td>
+      <td>3758.3</td>
       <td>NaN</td>
-      <td>510.0</td>
+      <td>3758.3</td>
       <td>NaN</td>
     </tr>
     <tr>
-      <th>7772</th>
-      <td>Ukraine</td>
+      <th>15512</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>KIRILLOVKA</td>
+      <td>YAP ISLAND/CAROLINE ISLANDS PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>26.0</td>
+      <td>304.0</td>
       <td>NaN</td>
-      <td>48.0</td>
+      <td>230.4</td>
       <td>NaN</td>
-      <td>62.0</td>
+      <td>228.3</td>
       <td>NaN</td>
-      <td>584.0</td>
+      <td>3049.5</td>
       <td>NaN</td>
-      <td>584.0</td>
+      <td>3049.5</td>
       <td>NaN</td>
     </tr>
   </tbody>
 </table>
-<p>7773 rows × 40 columns</p>
+<p>15513 rows × 40 columns</p>
 </div>
 </div>
 
@@ -15878,7 +17065,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[283]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[38]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span> <span class="o">=</span> <span class="n">co2_solar_prep</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
@@ -15900,7 +17087,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[283]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[38]:</div>
 
 
 
@@ -16107,7 +17294,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[284]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[39]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">country_isosLink</span> <span class="o">=</span> <span class="s1">'https://github.com/IntroSpatialDataScience/ClimateChangeData/raw/main/data/country_isos.xlsx'</span>
@@ -16124,7 +17311,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[285]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[40]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">country_Isos</span>
@@ -16145,7 +17332,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[285]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[40]:</div>
 
 
 
@@ -16276,6 +17463,591 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[41]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">OnlyDF</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">DF</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">country_Isos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">OnlyDF</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[41]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;Australia&#39;,
+ &#39;Austria&#39;,
+ &#39;Belarus&#39;,
+ &#39;Belgium&#39;,
+ &#39;Bulgaria&#39;,
+ &#39;Canada&#39;,
+ &#39;Croatia&#39;,
+ &#39;Cyprus&#39;,
+ &#39;Denmark&#39;,
+ &#39;Estonia&#39;,
+ &#39;Finland&#39;,
+ &#39;France&#39;,
+ &#39;Germany&#39;,
+ &#39;Greece&#39;,
+ &#39;Hungary&#39;,
+ &#39;Ireland&#39;,
+ &#39;Italy&#39;,
+ &#39;Japan&#39;,
+ &#39;Latvia&#39;,
+ &#39;Lithuania&#39;,
+ &#39;Luxembourg&#39;,
+ &#39;Malta&#39;,
+ &#39;Netherlands&#39;,
+ &#39;New Zealand&#39;,
+ &#39;Norway&#39;,
+ &#39;Poland&#39;,
+ &#39;Portugal&#39;,
+ &#39;Romania&#39;,
+ &#39;Russian Federation&#39;,
+ &#39;Slovakia&#39;,
+ &#39;Slovenia&#39;,
+ &#39;Spain&#39;,
+ &#39;Sweden&#39;,
+ &#39;Switzerland&#39;,
+ &#39;Ukraine&#39;,
+ &#39;United Kingdom&#39;,
+ &#39;United States&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[42]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">OnlyIsos</span><span class="o">=</span><span class="nb">set</span><span class="p">(</span><span class="n">country_Isos</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span><span class="o">-</span><span class="nb">set</span><span class="p">(</span><span class="n">DF</span><span class="o">.</span><span class="n">Country</span><span class="p">)</span>
+<span class="n">OnlyIsos</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[42]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;AFGHANISTAN&#39;,
+ &#39;ALBANIA&#39;,
+ &#39;ALGERIA&#39;,
+ &#39;ANGOLA&#39;,
+ &#39;ANTIGUA AND BARBUDA&#39;,
+ &#39;ARGENTINA&#39;,
+ &#39;ARMENIA&#39;,
+ &#39;AUSTRALIA&#39;,
+ &#39;AUSTRIA&#39;,
+ &#39;AZERBAIJAN&#39;,
+ &#39;BAHAMAS (THE)&#39;,
+ &#39;BAHRAIN&#39;,
+ &#39;BANGLADESH&#39;,
+ &#39;BARBADOS&#39;,
+ &#39;BELARUS&#39;,
+ &#39;BELGIUM&#39;,
+ &#39;BELIZE&#39;,
+ &#39;BENIN&#39;,
+ &#39;BHUTAN&#39;,
+ &#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;,
+ &#39;BOSNIA AND HERZEGOVINA&#39;,
+ &#39;BOTSWANA&#39;,
+ &#39;BRAZIL&#39;,
+ &#39;BRUNEI DARUSSALAM&#39;,
+ &#39;BULGARIA&#39;,
+ &#39;BURKINA FASO&#39;,
+ &#39;BURUNDI&#39;,
+ &#39;CABO VERDE&#39;,
+ &#39;CAMBODIA&#39;,
+ &#39;CAMEROON&#39;,
+ &#39;CANADA&#39;,
+ &#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;,
+ &#39;CHAD&#39;,
+ &#39;CHILE&#39;,
+ &#39;CHINA&#39;,
+ &#39;COLOMBIA&#39;,
+ &#39;COMOROS (THE)&#39;,
+ &#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;,
+ &#39;CONGO (THE)&#39;,
+ &#39;COSTA RICA&#39;,
+ &#39;CROATIA&#39;,
+ &#39;CUBA&#39;,
+ &#39;CYPRUS&#39;,
+ &#39;CZECHIA&#39;,
+ &#34;C√îTE D&#39;IVOIRE&#34;,
+ &#39;DENMARK&#39;,
+ &#39;DJIBOUTI&#39;,
+ &#39;DOMINICAN REPUBLIC (THE)&#39;,
+ &#39;ECUADOR&#39;,
+ &#39;EGYPT&#39;,
+ &#39;EL SALVADOR&#39;,
+ &#39;EQUATORIAL GUINEA&#39;,
+ &#39;ESTONIA&#39;,
+ &#39;ESWATINI&#39;,
+ &#39;ETHIOPIA&#39;,
+ &#39;FIJI&#39;,
+ &#39;FINLAND&#39;,
+ &#39;FRANCE&#39;,
+ &#39;GABON&#39;,
+ &#39;GAMBIA (THE)&#39;,
+ &#39;GEORGIA&#39;,
+ &#39;GERMANY&#39;,
+ &#39;GHANA&#39;,
+ &#39;GREECE&#39;,
+ &#39;GRENADA&#39;,
+ &#39;GUATEMALA&#39;,
+ &#39;GUINEA&#39;,
+ &#39;GUINEA-BISSAU&#39;,
+ &#39;GUYANA&#39;,
+ &#39;HAITI&#39;,
+ &#39;HONDURAS&#39;,
+ &#39;HUNGARY&#39;,
+ &#39;ICELAND&#39;,
+ &#39;INDIA&#39;,
+ &#39;INDONESIA&#39;,
+ &#39;IRAN (ISLAMIC REPUBLIC OF)&#39;,
+ &#39;IRAQ&#39;,
+ &#39;IRELAND&#39;,
+ &#39;ITALY&#39;,
+ &#39;JAMAICA&#39;,
+ &#39;JAPAN&#39;,
+ &#39;JORDAN&#39;,
+ &#39;KAZAKHSTAN&#39;,
+ &#39;KENYA&#39;,
+ &#39;KOREA (THE REPUBLIC OF)&#39;,
+ &#39;KUWAIT&#39;,
+ &#39;KYRGYZSTAN&#39;,
+ &#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;,
+ &#39;LATVIA&#39;,
+ &#39;LEBANON&#39;,
+ &#39;LESOTHO&#39;,
+ &#39;LIBERIA&#39;,
+ &#39;LIBYA&#39;,
+ &#39;LITHUANIA&#39;,
+ &#39;LUXEMBOURG&#39;,
+ &#39;MADAGASCAR&#39;,
+ &#39;MALAWI&#39;,
+ &#39;MALAYSIA&#39;,
+ &#39;MALDIVES&#39;,
+ &#39;MALI&#39;,
+ &#39;MALTA&#39;,
+ &#39;MAURITANIA&#39;,
+ &#39;MAURITIUS&#39;,
+ &#39;MEXICO&#39;,
+ &#39;MICRONESIA (FEDERATED STATES OF)&#39;,
+ &#39;MOLDOVA (THE REPUBLIC OF)&#39;,
+ &#39;MONGOLIA&#39;,
+ &#39;MONTENEGRO&#39;,
+ &#39;MOROCCO&#39;,
+ &#39;MOZAMBIQUE&#39;,
+ &#39;MYANMAR&#39;,
+ &#39;NAMIBIA&#39;,
+ &#39;NEPAL&#39;,
+ &#39;NETHERLANDS (THE)&#39;,
+ &#39;NEW ZEALAND&#39;,
+ &#39;NICARAGUA&#39;,
+ &#39;NIGER (THE)&#39;,
+ &#39;NIGERIA&#39;,
+ &#39;NORTH MACEDONIA&#39;,
+ &#39;NORWAY&#39;,
+ &#39;OMAN&#39;,
+ &#39;PAKISTAN&#39;,
+ &#39;PANAMA&#39;,
+ &#39;PAPUA NEW GUINEA&#39;,
+ &#39;PARAGUAY&#39;,
+ &#39;PERU&#39;,
+ &#39;PHILIPPINES (THE)&#39;,
+ &#39;POLAND&#39;,
+ &#39;PORTUGAL&#39;,
+ &#39;QATAR&#39;,
+ &#39;ROMANIA&#39;,
+ &#39;RUSSIAN FEDERATION (THE)&#39;,
+ &#39;RWANDA&#39;,
+ &#39;SAMOA&#39;,
+ &#39;SAO TOME AND PRINCIPE&#39;,
+ &#39;SAUDI ARABIA&#39;,
+ &#39;SENEGAL&#39;,
+ &#39;SERBIA&#39;,
+ &#39;SEYCHELLES&#39;,
+ &#39;SIERRA LEONE&#39;,
+ &#39;SINGAPORE&#39;,
+ &#39;SLOVAKIA&#39;,
+ &#39;SLOVENIA&#39;,
+ &#39;SOLOMON ISLANDS&#39;,
+ &#39;SOUTH SUDAN&#39;,
+ &#39;SPAIN&#39;,
+ &#39;SRI LANKA&#39;,
+ &#39;SUDAN (THE)&#39;,
+ &#39;SURINAME&#39;,
+ &#39;SWEDEN&#39;,
+ &#39;SWITZERLAND&#39;,
+ &#39;TAJIKISTAN&#39;,
+ &#39;TANZANIA, THE UNITED REPUBLIC OF&#39;,
+ &#39;THAILAND&#39;,
+ &#39;TIMOR-LESTE&#39;,
+ &#39;TOGO&#39;,
+ &#39;TRINIDAD AND TOBAGO&#39;,
+ &#39;TUNISIA&#39;,
+ &#39;TURKEY&#39;,
+ &#39;TURKMENISTAN&#39;,
+ &#39;UGANDA&#39;,
+ &#39;UKRAINE&#39;,
+ &#39;UNITED ARAB EMIRATES (THE)&#39;,
+ &#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;,
+ &#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;,
+ &#39;URUGUAY&#39;,
+ &#39;UZBEKISTAN&#39;,
+ &#39;VIET NAM&#39;,
+ &#39;YEMEN&#39;,
+ &#39;ZAMBIA&#39;,
+ &#39;ZIMBABWE&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[43]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyDF</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyIsos</span><span class="p">)]</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[43]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>[(&#39;AFGHANISTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;ALBANIA&#39;, (&#39;Lithuania&#39;, 62)),
+ (&#39;ALGERIA&#39;, (&#39;Bulgaria&#39;, 67)),
+ (&#39;ANGOLA&#39;, (&#39;Malta&#39;, 55)),
+ (&#39;ANTIGUA AND BARBUDA&#39;, (&#39;Canada&#39;, 62)),
+ (&#39;ARGENTINA&#39;, (&#39;Latvia&#39;, 54)),
+ (&#39;ARMENIA&#39;, (&#39;Romania&#39;, 71)),
+ (&#39;AUSTRALIA&#39;, (&#39;Australia&#39;, 100)),
+ (&#39;AUSTRIA&#39;, (&#39;Austria&#39;, 100)),
+ (&#39;AZERBAIJAN&#39;, (&#39;Japan&#39;, 68)),
+ (&#39;BAHAMAS (THE)&#39;, (&#39;Malta&#39;, 51)),
+ (&#39;BAHRAIN&#39;, (&#39;Ukraine&#39;, 57)),
+ (&#39;BANGLADESH&#39;, (&#39;Canada&#39;, 60)),
+ (&#39;BARBADOS&#39;, (&#39;Belarus&#39;, 53)),
+ (&#39;BELARUS&#39;, (&#39;Belarus&#39;, 100)),
+ (&#39;BELGIUM&#39;, (&#39;Belgium&#39;, 100)),
+ (&#39;BELIZE&#39;, (&#39;Belgium&#39;, 62)),
+ (&#39;BENIN&#39;, (&#39;Slovenia&#39;, 60)),
+ (&#39;BHUTAN&#39;, (&#39;Lithuania&#39;, 60)),
+ (&#39;BOLIVIA (PLURINATIONAL STATE OF)&#39;, (&#39;Latvia&#39;, 60)),
+ (&#39;BOSNIA AND HERZEGOVINA&#39;, (&#39;Poland&#39;, 57)),
+ (&#39;BOTSWANA&#39;, (&#39;Spain&#39;, 54)),
+ (&#39;BRAZIL&#39;, (&#39;Australia&#39;, 49)),
+ (&#39;BRUNEI DARUSSALAM&#39;, (&#39;Australia&#39;, 60)),
+ (&#39;BULGARIA&#39;, (&#39;Bulgaria&#39;, 100)),
+ (&#39;BURKINA FASO&#39;, (&#39;Bulgaria&#39;, 60)),
+ (&#39;BURUNDI&#39;, (&#39;United Kingdom&#39;, 54)),
+ (&#39;CABO VERDE&#39;, (&#39;Sweden&#39;, 54)),
+ (&#39;CAMBODIA&#39;, (&#39;Canada&#39;, 57)),
+ (&#39;CAMEROON&#39;, (&#39;Russian Federation&#39;, 48)),
+ (&#39;CANADA&#39;, (&#39;Canada&#39;, 100)),
+ (&#39;CENTRAL AFRICAN REPUBLIC (THE)&#39;, (&#39;France&#39;, 60)),
+ (&#39;CHAD&#39;, (&#39;Canada&#39;, 60)),
+ (&#39;CHILE&#39;, (&#39;Luxembourg&#39;, 40)),
+ (&#39;CHINA&#39;, (&#39;Canada&#39;, 55)),
+ (&#39;COLOMBIA&#39;, (&#39;Croatia&#39;, 53)),
+ (&#39;COMOROS (THE)&#39;, (&#39;Croatia&#39;, 42)),
+ (&#39;CONGO (THE DEMOCRATIC REPUBLIC OF THE)&#39;, (&#39;Croatia&#39;, 64)),
+ (&#39;CONGO (THE)&#39;, (&#39;United Kingdom&#39;, 50)),
+ (&#39;COSTA RICA&#39;, (&#39;Croatia&#39;, 59)),
+ (&#39;CROATIA&#39;, (&#39;Croatia&#39;, 100)),
+ (&#39;CUBA&#39;, (&#39;Canada&#39;, 60)),
+ (&#39;CYPRUS&#39;, (&#39;Cyprus&#39;, 100)),
+ (&#39;CZECHIA&#39;, (&#39;Croatia&#39;, 43)),
+ (&#34;C√îTE D&#39;IVOIRE&#34;, (&#39;Ireland&#39;, 54)),
+ (&#39;DENMARK&#39;, (&#39;Denmark&#39;, 100)),
+ (&#39;DJIBOUTI&#39;, (&#39;United Kingdom&#39;, 43)),
+ (&#39;DOMINICAN REPUBLIC (THE)&#39;, (&#39;Romania&#39;, 64)),
+ (&#39;ECUADOR&#39;, (&#39;Canada&#39;, 46)),
+ (&#39;EGYPT&#39;, (&#39;Netherlands&#39;, 45)),
+ (&#39;EL SALVADOR&#39;, (&#39;New Zealand&#39;, 55)),
+ (&#39;EQUATORIAL GUINEA&#39;, (&#39;Austria&#39;, 64)),
+ (&#39;ESTONIA&#39;, (&#39;Estonia&#39;, 100)),
+ (&#39;ESWATINI&#39;, (&#39;Estonia&#39;, 67)),
+ (&#39;ETHIOPIA&#39;, (&#39;Estonia&#39;, 67)),
+ (&#39;FIJI&#39;, (&#39;Finland&#39;, 60)),
+ (&#39;FINLAND&#39;, (&#39;Finland&#39;, 100)),
+ (&#39;FRANCE&#39;, (&#39;France&#39;, 100)),
+ (&#39;GABON&#39;, (&#39;Russian Federation&#39;, 54)),
+ (&#39;GAMBIA (THE)&#39;, (&#39;Latvia&#39;, 45)),
+ (&#39;GEORGIA&#39;, (&#39;Estonia&#39;, 57)),
+ (&#39;GERMANY&#39;, (&#39;Germany&#39;, 100)),
+ (&#39;GHANA&#39;, (&#39;Lithuania&#39;, 60)),
+ (&#39;GREECE&#39;, (&#39;Greece&#39;, 100)),
+ (&#39;GRENADA&#39;, (&#39;Canada&#39;, 62)),
+ (&#39;GUATEMALA&#39;, (&#39;Malta&#39;, 80)),
+ (&#39;GUINEA&#39;, (&#39;Ukraine&#39;, 62)),
+ (&#39;GUINEA-BISSAU&#39;, (&#39;Ukraine&#39;, 60)),
+ (&#39;GUYANA&#39;, (&#39;Lithuania&#39;, 65)),
+ (&#39;HAITI&#39;, (&#39;Latvia&#39;, 55)),
+ (&#39;HONDURAS&#39;, (&#39;Russian Federation&#39;, 45)),
+ (&#39;HUNGARY&#39;, (&#39;Hungary&#39;, 100)),
+ (&#39;ICELAND&#39;, (&#39;Ireland&#39;, 86)),
+ (&#39;INDIA&#39;, (&#39;Slovenia&#39;, 68)),
+ (&#39;INDONESIA&#39;, (&#39;Spain&#39;, 51)),
+ (&#39;IRAN (ISLAMIC REPUBLIC OF)&#39;, (&#39;Ireland&#39;, 65)),
+ (&#39;IRAQ&#39;, (&#39;Latvia&#39;, 60)),
+ (&#39;IRELAND&#39;, (&#39;Ireland&#39;, 100)),
+ (&#39;ITALY&#39;, (&#39;Italy&#39;, 100)),
+ (&#39;JAMAICA&#39;, (&#39;Romania&#39;, 57)),
+ (&#39;JAPAN&#39;, (&#39;Japan&#39;, 100)),
+ (&#39;JORDAN&#39;, (&#39;Japan&#39;, 55)),
+ (&#39;KAZAKHSTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;KENYA&#39;, (&#39;Slovenia&#39;, 60)),
+ (&#39;KOREA (THE REPUBLIC OF)&#39;, (&#39;Ukraine&#39;, 49)),
+ (&#39;KUWAIT&#39;, (&#39;Switzerland&#39;, 54)),
+ (&#39;KYRGYZSTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#34;LAO PEOPLE&#39;S DEMOCRATIC REPUBLIC (THE)&#34;, (&#39;Croatia&#39;, 64)),
+ (&#39;LATVIA&#39;, (&#39;Latvia&#39;, 100)),
+ (&#39;LEBANON&#39;, (&#39;Russian Federation&#39;, 51)),
+ (&#39;LESOTHO&#39;, (&#39;Estonia&#39;, 57)),
+ (&#39;LIBERIA&#39;, (&#39;Bulgaria&#39;, 53)),
+ (&#39;LIBYA&#39;, (&#39;Australia&#39;, 68)),
+ (&#39;LITHUANIA&#39;, (&#39;Lithuania&#39;, 100)),
+ (&#39;LUXEMBOURG&#39;, (&#39;Luxembourg&#39;, 100)),
+ (&#39;MADAGASCAR&#39;, (&#39;Malta&#39;, 60)),
+ (&#39;MALAWI&#39;, (&#39;Malta&#39;, 73)),
+ (&#39;MALAYSIA&#39;, (&#39;Malta&#39;, 80)),
+ (&#39;MALDIVES&#39;, (&#39;Malta&#39;, 68)),
+ (&#39;MALI&#39;, (&#39;Australia&#39;, 68)),
+ (&#39;MALTA&#39;, (&#39;Malta&#39;, 100)),
+ (&#39;MAURITANIA&#39;, (&#39;Australia&#39;, 63)),
+ (&#39;MAURITIUS&#39;, (&#39;Malta&#39;, 51)),
+ (&#39;MEXICO&#39;, (&#39;Russian Federation&#39;, 45)),
+ (&#39;MICRONESIA (FEDERATED STATES OF)&#39;, (&#39;United States&#39;, 86)),
+ (&#39;MOLDOVA (THE REPUBLIC OF)&#39;, (&#39;Poland&#39;, 54)),
+ (&#39;MONGOLIA&#39;, (&#39;Estonia&#39;, 53)),
+ (&#39;MONTENEGRO&#39;, (&#39;United Kingdom&#39;, 50)),
+ (&#39;MOROCCO&#39;, (&#39;Luxembourg&#39;, 35)),
+ (&#39;MOZAMBIQUE&#39;, (&#39;Malta&#39;, 40)),
+ (&#39;MYANMAR&#39;, (&#39;Denmark&#39;, 57)),
+ (&#39;NAMIBIA&#39;, (&#39;Latvia&#39;, 46)),
+ (&#39;NEPAL&#39;, (&#39;New Zealand&#39;, 54)),
+ (&#39;NETHERLANDS (THE)&#39;, (&#39;Netherlands&#39;, 95)),
+ (&#39;NEW ZEALAND&#39;, (&#39;New Zealand&#39;, 100)),
+ (&#39;NICARAGUA&#39;, (&#39;Canada&#39;, 53)),
+ (&#39;NIGER (THE)&#39;, (&#39;United States&#39;, 52)),
+ (&#39;NIGERIA&#39;, (&#39;Germany&#39;, 57)),
+ (&#39;NORTH MACEDONIA&#39;, (&#39;Estonia&#39;, 69)),
+ (&#39;NORWAY&#39;, (&#39;Norway&#39;, 100)),
+ (&#39;OMAN&#39;, (&#39;Romania&#39;, 90)),
+ (&#39;PAKISTAN&#39;, (&#39;Spain&#39;, 62)),
+ (&#39;PANAMA&#39;, (&#39;Canada&#39;, 67)),
+ (&#39;PAPUA NEW GUINEA&#39;, (&#39;Ukraine&#39;, 60)),
+ (&#39;PARAGUAY&#39;, (&#39;Spain&#39;, 51)),
+ (&#39;PERU&#39;, (&#39;Cyprus&#39;, 68)),
+ (&#39;PHILIPPINES (THE)&#39;, (&#39;Spain&#39;, 54)),
+ (&#39;POLAND&#39;, (&#39;Poland&#39;, 100)),
+ (&#39;PORTUGAL&#39;, (&#39;Portugal&#39;, 100)),
+ (&#39;QATAR&#39;, (&#39;Malta&#39;, 60)),
+ (&#39;ROMANIA&#39;, (&#39;Romania&#39;, 100)),
+ (&#39;RUSSIAN FEDERATION (THE)&#39;, (&#39;Russian Federation&#39;, 95)),
+ (&#39;RWANDA&#39;, (&#39;Canada&#39;, 67)),
+ (&#39;SAMOA&#39;, (&#39;Slovakia&#39;, 54)),
+ (&#39;SAO TOME AND PRINCIPE&#39;, (&#39;Poland&#39;, 57)),
+ (&#39;SAUDI ARABIA&#39;, (&#39;Croatia&#39;, 60)),
+ (&#39;SENEGAL&#39;, (&#39;Slovenia&#39;, 53)),
+ (&#39;SERBIA&#39;, (&#39;Austria&#39;, 62)),
+ (&#39;SEYCHELLES&#39;, (&#39;Netherlands&#39;, 48)),
+ (&#39;SIERRA LEONE&#39;, (&#39;Switzerland&#39;, 52)),
+ (&#39;SINGAPORE&#39;, (&#39;Spain&#39;, 68)),
+ (&#39;SLOVAKIA&#39;, (&#39;Slovakia&#39;, 100)),
+ (&#39;SLOVENIA&#39;, (&#39;Slovenia&#39;, 100)),
+ (&#39;SOLOMON ISLANDS&#39;, (&#39;Ireland&#39;, 66)),
+ (&#39;SOUTH SUDAN&#39;, (&#39;Spain&#39;, 54)),
+ (&#39;SPAIN&#39;, (&#39;Spain&#39;, 100)),
+ (&#39;SRI LANKA&#39;, (&#39;Slovakia&#39;, 59)),
+ (&#39;SUDAN (THE)&#39;, (&#39;Spain&#39;, 54)),
+ (&#39;SURINAME&#39;, (&#39;Ukraine&#39;, 67)),
+ (&#39;SWEDEN&#39;, (&#39;Sweden&#39;, 100)),
+ (&#39;SWITZERLAND&#39;, (&#39;Switzerland&#39;, 100)),
+ (&#39;TAJIKISTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;TANZANIA, THE UNITED REPUBLIC OF&#39;, (&#39;United Kingdom&#39;, 86)),
+ (&#39;THAILAND&#39;, (&#39;Ireland&#39;, 67)),
+ (&#39;TIMOR-LESTE&#39;, (&#39;Estonia&#39;, 49)),
+ (&#39;TOGO&#39;, (&#39;Portugal&#39;, 45)),
+ (&#39;TRINIDAD AND TOBAGO&#39;, (&#39;Poland&#39;, 57)),
+ (&#39;TUNISIA&#39;, (&#39;Lithuania&#39;, 62)),
+ (&#39;TURKEY&#39;, (&#39;Ukraine&#39;, 46)),
+ (&#39;TURKMENISTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;UGANDA&#39;, (&#39;Canada&#39;, 67)),
+ (&#39;UKRAINE&#39;, (&#39;Ukraine&#39;, 100)),
+ (&#39;UNITED ARAB EMIRATES (THE)&#39;, (&#39;United Kingdom&#39;, 86)),
+ (&#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;,
+  (&#39;United Kingdom&#39;, 90)),
+ (&#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;, (&#39;United States&#39;, 90)),
+ (&#39;URUGUAY&#39;, (&#39;Hungary&#39;, 57)),
+ (&#39;UZBEKISTAN&#39;, (&#39;Spain&#39;, 60)),
+ (&#39;VIET NAM&#39;, (&#39;Estonia&#39;, 53)),
+ (&#39;YEMEN&#39;, (&#39;Sweden&#39;, 55)),
+ (&#39;ZAMBIA&#39;, (&#39;Australia&#39;, 54)),
+ (&#39;ZIMBABWE&#39;, (&#39;Malta&#39;, 36))]</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[44]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">match_DF_Isos</span> <span class="o">=</span> <span class="p">[(</span><span class="n">f</span><span class="p">,</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyDF</span><span class="p">))</span> <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyIsos</span><span class="p">)</span>
+ <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyDF</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">&gt;=</span><span class="mi">87</span><span class="p">]</span>
+<span class="n">match_DF_Isos</span><span class="o">=</span> <span class="p">{</span><span class="n">f</span><span class="p">:</span><span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyDF</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> 
+                 <span class="k">for</span> <span class="n">f</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">OnlyIsos</span><span class="p">)</span>
+                 <span class="k">if</span> <span class="n">fz</span><span class="o">.</span><span class="n">extractOne</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">OnlyDF</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="o">&gt;=</span><span class="mi">87</span><span class="p">}</span>
+<span class="n">match_DF_Isos</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[44]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>{&#39;AUSTRALIA&#39;: &#39;Australia&#39;,
+ &#39;AUSTRIA&#39;: &#39;Austria&#39;,
+ &#39;BELARUS&#39;: &#39;Belarus&#39;,
+ &#39;BELGIUM&#39;: &#39;Belgium&#39;,
+ &#39;BULGARIA&#39;: &#39;Bulgaria&#39;,
+ &#39;CANADA&#39;: &#39;Canada&#39;,
+ &#39;CROATIA&#39;: &#39;Croatia&#39;,
+ &#39;CYPRUS&#39;: &#39;Cyprus&#39;,
+ &#39;DENMARK&#39;: &#39;Denmark&#39;,
+ &#39;ESTONIA&#39;: &#39;Estonia&#39;,
+ &#39;FINLAND&#39;: &#39;Finland&#39;,
+ &#39;FRANCE&#39;: &#39;France&#39;,
+ &#39;GERMANY&#39;: &#39;Germany&#39;,
+ &#39;GREECE&#39;: &#39;Greece&#39;,
+ &#39;HUNGARY&#39;: &#39;Hungary&#39;,
+ &#39;IRELAND&#39;: &#39;Ireland&#39;,
+ &#39;ITALY&#39;: &#39;Italy&#39;,
+ &#39;JAPAN&#39;: &#39;Japan&#39;,
+ &#39;LATVIA&#39;: &#39;Latvia&#39;,
+ &#39;LITHUANIA&#39;: &#39;Lithuania&#39;,
+ &#39;LUXEMBOURG&#39;: &#39;Luxembourg&#39;,
+ &#39;MALTA&#39;: &#39;Malta&#39;,
+ &#39;NETHERLANDS (THE)&#39;: &#39;Netherlands&#39;,
+ &#39;NEW ZEALAND&#39;: &#39;New Zealand&#39;,
+ &#39;NORWAY&#39;: &#39;Norway&#39;,
+ &#39;OMAN&#39;: &#39;Romania&#39;,
+ &#39;POLAND&#39;: &#39;Poland&#39;,
+ &#39;PORTUGAL&#39;: &#39;Portugal&#39;,
+ &#39;ROMANIA&#39;: &#39;Romania&#39;,
+ &#39;RUSSIAN FEDERATION (THE)&#39;: &#39;Russian Federation&#39;,
+ &#39;SLOVAKIA&#39;: &#39;Slovakia&#39;,
+ &#39;SLOVENIA&#39;: &#39;Slovenia&#39;,
+ &#39;SPAIN&#39;: &#39;Spain&#39;,
+ &#39;SWEDEN&#39;: &#39;Sweden&#39;,
+ &#39;SWITZERLAND&#39;: &#39;Switzerland&#39;,
+ &#39;UKRAINE&#39;: &#39;Ukraine&#39;,
+ &#39;UNITED KINGDOM OF GREAT BRITAIN AND NORTHERN IRELAND (THE)&#39;: &#39;United Kingdom&#39;,
+ &#39;UNITED STATES MINOR OUTLYING ISLANDS (THE)&#39;: &#39;United States&#39;}</pre>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -16283,7 +18055,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Cambio a 'title' el tipo de cadena de la columna 'Country' para realizar el merge con el anterior dataframe.</p>
+<p>Realizo el reemplazo de los nuevos nombres</p>
 
 </div>
 </div>
@@ -16293,10 +18065,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[286]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[45]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">country_Isos</span><span class="o">.</span><span class="n">Country</span> <span class="o">=</span> <span class="n">country_Isos</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">country_Isos</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="n">to_replace</span><span class="o">=</span><span class="n">match_DF_Isos</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">country_Isos</span>
 </pre></div>
 
@@ -16315,7 +18087,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[286]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[45]:</div>
 
 
 
@@ -16348,7 +18120,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <tbody>
     <tr>
       <th>0</th>
-      <td>Afghanistan</td>
+      <td>AFGHANISTAN</td>
       <td>The Islamic Republic of Afghanistan</td>
       <td>.af</td>
       <td>AF</td>
@@ -16356,7 +18128,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>1</th>
-      <td>Albania</td>
+      <td>ALBANIA</td>
       <td>The Republic of Albania</td>
       <td>.al</td>
       <td>AL</td>
@@ -16364,7 +18136,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>2</th>
-      <td>Algeria</td>
+      <td>ALGERIA</td>
       <td>The People's Democratic Republic of Algeria</td>
       <td>.dz</td>
       <td>DZ</td>
@@ -16372,7 +18144,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>3</th>
-      <td>Angola</td>
+      <td>ANGOLA</td>
       <td>The Republic of Angola</td>
       <td>.ao</td>
       <td>AO</td>
@@ -16380,7 +18152,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>4</th>
-      <td>Antigua And Barbuda</td>
+      <td>ANTIGUA AND BARBUDA</td>
       <td>Antigua and Barbuda</td>
       <td>.ag</td>
       <td>AG</td>
@@ -16396,7 +18168,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>166</th>
-      <td>Uzbekistan</td>
+      <td>UZBEKISTAN</td>
       <td>The Republic of Uzbekistan</td>
       <td>.uz</td>
       <td>UZ</td>
@@ -16404,7 +18176,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>167</th>
-      <td>Viet Nam</td>
+      <td>VIET NAM</td>
       <td>The Socialist Republic of Viet Nam</td>
       <td>.vn</td>
       <td>VN</td>
@@ -16412,7 +18184,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>168</th>
-      <td>Yemen</td>
+      <td>YEMEN</td>
       <td>The Republic of Yemen</td>
       <td>.ye</td>
       <td>YE</td>
@@ -16420,7 +18192,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>169</th>
-      <td>Zambia</td>
+      <td>ZAMBIA</td>
       <td>The Republic of Zambia</td>
       <td>.zm</td>
       <td>ZM</td>
@@ -16428,7 +18200,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>170</th>
-      <td>Zimbabwe</td>
+      <td>ZIMBABWE</td>
       <td>The Republic of Zimbabwe</td>
       <td>.zw</td>
       <td>ZW</td>
@@ -16444,6 +18216,23 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 </div>
 
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[46]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">list</span><span class="p">(</span><span class="n">country_Isos</span><span class="o">.</span><span class="n">Country</span><span class="p">);</span>
+<span class="n">country_Isos</span><span class="o">.</span><span class="n">Country</span> <span class="o">=</span> <span class="n">country_Isos</span><span class="o">.</span><span class="n">Country</span><span class="o">.</span><span class="n">str</span><span class="o">.</span><span class="n">title</span><span class="p">()</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
 </div>
 
 </div>
@@ -16463,7 +18252,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[287]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[47]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span> <span class="o">=</span> <span class="n">DF</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">country_Isos</span><span class="p">,</span><span class="n">how</span><span class="o">=</span><span class="s1">'inner'</span><span class="p">,</span><span class="n">left_on</span><span class="o">=</span><span class="s1">'Country'</span><span class="p">,</span><span class="n">right_on</span><span class="o">=</span><span class="s1">'Country'</span><span class="p">)</span>
@@ -16485,7 +18274,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[287]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[47]:</div>
 
 
 
@@ -16536,7 +18325,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>0</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -16560,7 +18349,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>1</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -16584,7 +18373,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>2</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -16608,7 +18397,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>3</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -16632,7 +18421,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>4</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>Electricity - total solar production</td>
       <td>2020.0</td>
       <td>Kilowatt-hours, million</td>
@@ -16677,128 +18466,128 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>7738</th>
-      <td>Ukraine</td>
+      <th>15565</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>DNEPROPETROVSK</td>
+      <td>POHNPEI, PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>52.0</td>
+      <td>386.6</td>
       <td>NaN</td>
-      <td>513.0</td>
+      <td>4769.1</td>
       <td>NaN</td>
-      <td>513.0</td>
+      <td>4769.1</td>
       <td>NaN</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7739</th>
-      <td>Ukraine</td>
+      <th>15566</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>DONECK</td>
+      <td>KWAJALEIN ISLAND, PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>52.0</td>
+      <td>205.7</td>
       <td>NaN</td>
-      <td>515.0</td>
+      <td>2593.0</td>
       <td>NaN</td>
-      <td>515.0</td>
+      <td>2593.0</td>
       <td>NaN</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7740</th>
-      <td>Ukraine</td>
+      <th>15567</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>LUGANSK</td>
+      <td>MAJURO, PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>43.0</td>
+      <td>301.0</td>
       <td>NaN</td>
-      <td>473.0</td>
+      <td>3336.0</td>
       <td>NaN</td>
-      <td>473.0</td>
+      <td>3336.0</td>
       <td>NaN</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7741</th>
-      <td>Ukraine</td>
+      <th>15568</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>HAPOROZ'E</td>
+      <td>KOROR/W CAROLINE ISLANDS PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>52.0</td>
+      <td>304.3</td>
       <td>NaN</td>
-      <td>510.0</td>
+      <td>3758.3</td>
       <td>NaN</td>
-      <td>510.0</td>
+      <td>3758.3</td>
       <td>NaN</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7742</th>
-      <td>Ukraine</td>
+      <th>15569</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
       <td>Electricity - total solar production</td>
-      <td>2020.0</td>
+      <td>1990.0</td>
       <td>Kilowatt-hours, million</td>
-      <td>5969.400</td>
+      <td>666.000</td>
       <td>NaN</td>
-      <td>KIRILLOVKA</td>
+      <td>YAP ISLAND/CAROLINE ISLANDS PI</td>
       <td>1961-1990</td>
       <td>...</td>
-      <td>62.0</td>
+      <td>228.3</td>
       <td>NaN</td>
-      <td>584.0</td>
+      <td>3049.5</td>
       <td>NaN</td>
-      <td>584.0</td>
+      <td>3049.5</td>
       <td>NaN</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
   </tbody>
 </table>
-<p>7743 rows × 44 columns</p>
+<p>15570 rows × 44 columns</p>
 </div>
 </div>
 
@@ -16847,7 +18636,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[288]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[48]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span> <span class="o">=</span> <span class="n">DF</span><span class="p">[[</span><span class="s1">'Country'</span><span class="p">,</span><span class="s1">'Year_x'</span><span class="p">,</span><span class="s1">'Value'</span><span class="p">,</span><span class="s1">'Quantity'</span><span class="p">,</span><span class="s1">'Station Name'</span><span class="p">,</span><span class="s1">'Annual NCDC Computed Value'</span><span class="p">,</span><span class="s1">'Officialstatename'</span><span class="p">,</span><span class="s1">'InternetccTLD'</span><span class="p">,</span><span class="s1">'iso2'</span><span class="p">,</span><span class="s1">'iso3'</span><span class="p">]]</span>
@@ -16869,7 +18658,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[288]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[48]:</div>
 
 
 
@@ -16909,7 +18698,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>0</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>ALBANY (ALBANY TOWN)</td>
       <td>1012.3</td>
@@ -16922,7 +18711,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>1</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>ESPERANCE (ESPERANCE POST OFFICE)</td>
       <td>698.8</td>
@@ -16935,7 +18724,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>2</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>TENNANT CRK POST OFFICE WAS 014050</td>
       <td>321.3</td>
@@ -16948,7 +18737,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>3</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>LONGREACH POST OFFICE</td>
       <td>433.7</td>
@@ -16961,7 +18750,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>4</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>ESSENDON AIRPORT AMO</td>
       <td>594.9</td>
@@ -16984,73 +18773,73 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>7738</th>
-      <td>Ukraine</td>
+      <th>15565</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>DNEPROPETROVSK</td>
-      <td>513.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>POHNPEI, PI</td>
+      <td>4769.1</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7739</th>
-      <td>Ukraine</td>
+      <th>15566</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>DONECK</td>
-      <td>515.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>KWAJALEIN ISLAND, PI</td>
+      <td>2593.0</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7740</th>
-      <td>Ukraine</td>
+      <th>15567</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>LUGANSK</td>
-      <td>473.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>MAJURO, PI</td>
+      <td>3336.0</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7741</th>
-      <td>Ukraine</td>
+      <th>15568</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>HAPOROZ'E</td>
-      <td>510.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>KOROR/W CAROLINE ISLANDS PI</td>
+      <td>3758.3</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7742</th>
-      <td>Ukraine</td>
+      <th>15569</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>KIRILLOVKA</td>
-      <td>584.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>YAP ISLAND/CAROLINE ISLANDS PI</td>
+      <td>3049.5</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
   </tbody>
 </table>
-<p>7743 rows × 10 columns</p>
+<p>15570 rows × 10 columns</p>
 </div>
 </div>
 
@@ -17065,7 +18854,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[289]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[49]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">chained_assignment</span> <span class="o">=</span> <span class="kc">None</span> <span class="c1">#desactivar mensaje de emergencia</span>
@@ -17081,7 +18870,23 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[290]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[50]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pd</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">mode</span><span class="o">.</span><span class="n">chained_assignment</span> <span class="o">=</span> <span class="kc">None</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[51]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s1">'Value'</span><span class="p">:</span><span class="s1">'CO2_anual'</span><span class="p">,</span><span class="s1">'Quantity'</span><span class="p">:</span><span class="s1">'solar_energy_anual'</span><span class="p">,</span><span class="s1">'Annual NCDC Computed Value'</span><span class="p">:</span><span class="s1">'precipitation_anual'</span><span class="p">,</span><span class="s1">'Year_x'</span><span class="p">:</span><span class="s1">'Year'</span><span class="p">},</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -17097,7 +18902,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[291]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[52]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span>
@@ -17118,7 +18923,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[291]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[52]:</div>
 
 
 
@@ -17158,7 +18963,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>0</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>ALBANY (ALBANY TOWN)</td>
       <td>1012.3</td>
@@ -17171,7 +18976,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>1</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>ESPERANCE (ESPERANCE POST OFFICE)</td>
       <td>698.8</td>
@@ -17184,7 +18989,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>2</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>TENNANT CRK POST OFFICE WAS 014050</td>
       <td>321.3</td>
@@ -17197,7 +19002,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>3</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>LONGREACH POST OFFICE</td>
       <td>433.7</td>
@@ -17210,7 +19015,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>4</th>
       <td>Australia</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>ESSENDON AIRPORT AMO</td>
       <td>594.9</td>
@@ -17233,73 +19038,73 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>7738</th>
-      <td>Ukraine</td>
+      <th>15565</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>DNEPROPETROVSK</td>
-      <td>513.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>POHNPEI, PI</td>
+      <td>4769.1</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7739</th>
-      <td>Ukraine</td>
+      <th>15566</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>DONECK</td>
-      <td>515.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>KWAJALEIN ISLAND, PI</td>
+      <td>2593.0</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7740</th>
-      <td>Ukraine</td>
+      <th>15567</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>LUGANSK</td>
-      <td>473.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>MAJURO, PI</td>
+      <td>3336.0</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7741</th>
-      <td>Ukraine</td>
+      <th>15568</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>HAPOROZ'E</td>
-      <td>510.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>KOROR/W CAROLINE ISLANDS PI</td>
+      <td>3758.3</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7742</th>
-      <td>Ukraine</td>
+      <th>15569</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>KIRILLOVKA</td>
-      <td>584.0</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>YAP ISLAND/CAROLINE ISLANDS PI</td>
+      <td>3049.5</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
   </tbody>
 </table>
-<p>7743 rows × 10 columns</p>
+<p>15570 rows × 10 columns</p>
 </div>
 </div>
 
@@ -17348,7 +19153,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[292]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[53]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prep_mean</span> <span class="o">=</span> <span class="n">DF</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">'Country'</span><span class="p">)[[</span><span class="s1">'precipitation_anual'</span><span class="p">]]</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="s1">'mean'</span><span class="p">)</span>
@@ -17370,7 +19175,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[292]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[53]:</div>
 
 
 
@@ -17403,7 +19208,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
   <tbody>
     <tr>
       <th>Australia</th>
-      <td>764.802985</td>
+      <td>754.613235</td>
     </tr>
     <tr>
       <th>Austria</th>
@@ -17447,7 +19252,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>France</th>
-      <td>736.062500</td>
+      <td>1179.222727</td>
     </tr>
     <tr>
       <th>Germany</th>
@@ -17490,6 +19295,10 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>553.300000</td>
     </tr>
     <tr>
+      <th>Netherlands</th>
+      <td>774.257143</td>
+    </tr>
+    <tr>
       <th>New Zealand</th>
       <td>1291.799094</td>
     </tr>
@@ -17503,11 +19312,15 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>Portugal</th>
-      <td>907.333333</td>
+      <td>886.923077</td>
     </tr>
     <tr>
       <th>Romania</th>
-      <td>583.454545</td>
+      <td>396.284211</td>
+    </tr>
+    <tr>
+      <th>Russian Federation</th>
+      <td>497.791379</td>
     </tr>
     <tr>
       <th>Slovakia</th>
@@ -17533,9 +19346,58 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>Ukraine</th>
       <td>568.000000</td>
     </tr>
+    <tr>
+      <th>United Kingdom</th>
+      <td>857.700000</td>
+    </tr>
+    <tr>
+      <th>United States</th>
+      <td>12349.788062</td>
+    </tr>
   </tbody>
 </table>
 </div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[54]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">prep_mean</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[54]:</div>
+
+
+
+
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain">
+<pre>37</pre>
 </div>
 
 </div>
@@ -17561,7 +19423,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[293]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[55]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Station Name'</span><span class="p">,</span><span class="s1">'precipitation_anual'</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -17589,7 +19451,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[294]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[56]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span> <span class="o">=</span> <span class="n">prep_mean</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">DF</span><span class="p">,</span><span class="n">how</span><span class="o">=</span><span class="s1">'inner'</span><span class="p">,</span><span class="n">left_on</span><span class="o">=</span><span class="s1">'Country'</span><span class="p">,</span><span class="n">right_on</span><span class="o">=</span><span class="s1">'Country'</span><span class="p">)</span>
@@ -17611,7 +19473,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[294]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[56]:</div>
 
 
 
@@ -17649,9 +19511,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <tr>
       <th>0</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17661,9 +19523,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <tr>
       <th>1</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17673,9 +19535,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <tr>
       <th>2</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17685,9 +19547,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <tr>
       <th>3</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17697,9 +19559,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <tr>
       <th>4</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17719,68 +19581,68 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>7738</th>
-      <td>Ukraine</td>
-      <td>568.000000</td>
+      <th>15565</th>
+      <td>United States</td>
+      <td>12349.788062</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7739</th>
-      <td>Ukraine</td>
-      <td>568.000000</td>
+      <th>15566</th>
+      <td>United States</td>
+      <td>12349.788062</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7740</th>
-      <td>Ukraine</td>
-      <td>568.000000</td>
+      <th>15567</th>
+      <td>United States</td>
+      <td>12349.788062</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7741</th>
-      <td>Ukraine</td>
-      <td>568.000000</td>
+      <th>15568</th>
+      <td>United States</td>
+      <td>12349.788062</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7742</th>
-      <td>Ukraine</td>
-      <td>568.000000</td>
+      <th>15569</th>
+      <td>United States</td>
+      <td>12349.788062</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
   </tbody>
 </table>
-<p>7743 rows × 9 columns</p>
+<p>15570 rows × 9 columns</p>
 </div>
 </div>
 
@@ -17806,7 +19668,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[295]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[57]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span> <span class="o">=</span> <span class="n">DF</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">()</span>
@@ -17828,7 +19690,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[295]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[57]:</div>
 
 
 
@@ -17866,9 +19728,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <tr>
       <th>0</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>21033.194</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17876,11 +19738,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>AUS</td>
     </tr>
     <tr>
-      <th>67</th>
+      <th>68</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>38.000</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17888,11 +19750,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>AUS</td>
     </tr>
     <tr>
-      <th>134</th>
+      <th>136</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2000</td>
-      <td>349635.486902</td>
+      <td>3.496355e+05</td>
       <td>21033.194</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17900,11 +19762,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>AUS</td>
     </tr>
     <tr>
-      <th>201</th>
+      <th>204</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2000</td>
-      <td>349635.486902</td>
+      <td>3.496355e+05</td>
       <td>38.000</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17912,11 +19774,11 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>AUS</td>
     </tr>
     <tr>
-      <th>268</th>
+      <th>272</th>
       <td>Australia</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>1990</td>
-      <td>278154.156296</td>
+      <td>2.781542e+05</td>
       <td>21033.194</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
@@ -17936,68 +19798,68 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>7594</th>
-      <td>Switzerland</td>
-      <td>1628.000000</td>
-      <td>1990</td>
-      <td>44159.881987</td>
-      <td>11.000</td>
-      <td>The Swiss Confederation</td>
-      <td>.ch</td>
-      <td>CH</td>
-      <td>CHE</td>
-    </tr>
-    <tr>
-      <th>7598</th>
-      <td>Switzerland</td>
-      <td>1628.000000</td>
-      <td>1990</td>
-      <td>44159.881987</td>
-      <td>1.000</td>
-      <td>The Swiss Confederation</td>
-      <td>.ch</td>
-      <td>CH</td>
-      <td>CHE</td>
-    </tr>
-    <tr>
-      <th>7602</th>
-      <td>Ukraine</td>
-      <td>568.000000</td>
-      <td>2020</td>
-      <td>206941.158967</td>
-      <td>5969.400</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
-    </tr>
-    <tr>
-      <th>7649</th>
-      <td>Ukraine</td>
-      <td>568.000000</td>
+      <th>11675</th>
+      <td>United States</td>
+      <td>12349.788062</td>
       <td>2000</td>
-      <td>285321.939446</td>
-      <td>5969.400</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>6.016351e+06</td>
+      <td>709.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>7696</th>
-      <td>Ukraine</td>
-      <td>568.000000</td>
+      <th>12454</th>
+      <td>United States</td>
+      <td>12349.788062</td>
+      <td>2000</td>
+      <td>6.016351e+06</td>
+      <td>666.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
+    </tr>
+    <tr>
+      <th>13233</th>
+      <td>United States</td>
+      <td>12349.788062</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>5969.400</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>119328.543</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
+    </tr>
+    <tr>
+      <th>14012</th>
+      <td>United States</td>
+      <td>12349.788062</td>
+      <td>1990</td>
+      <td>5.122496e+06</td>
+      <td>709.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
+    </tr>
+    <tr>
+      <th>14791</th>
+      <td>United States</td>
+      <td>12349.788062</td>
+      <td>1990</td>
+      <td>5.122496e+06</td>
+      <td>666.000</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
   </tbody>
 </table>
-<p>150 rows × 9 columns</p>
+<p>177 rows × 9 columns</p>
 </div>
 </div>
 
@@ -18034,7 +19896,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[296]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[58]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_solar</span> <span class="o">=</span> <span class="n">DF</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">'Country'</span><span class="p">,</span><span class="s1">'Year'</span><span class="p">])[[</span><span class="s1">'solar_energy_anual'</span><span class="p">]]</span><span class="o">.</span><span class="n">agg</span><span class="p">(</span><span class="s1">'sum'</span><span class="p">)</span>
@@ -18058,7 +19920,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[296]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[58]:</div>
 
 
 
@@ -18124,38 +19986,38 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>94</th>
-      <td>Switzerland</td>
+      <th>106</th>
+      <td>United Kingdom</td>
       <td>2000</td>
-      <td>2610.659</td>
+      <td>13158.994</td>
     </tr>
     <tr>
-      <th>95</th>
-      <td>Switzerland</td>
+      <th>107</th>
+      <td>United Kingdom</td>
       <td>2020</td>
-      <td>2610.659</td>
+      <td>13158.994</td>
     </tr>
     <tr>
-      <th>96</th>
-      <td>Ukraine</td>
+      <th>108</th>
+      <td>United States</td>
       <td>1990</td>
-      <td>5969.400</td>
+      <td>120703.543</td>
     </tr>
     <tr>
-      <th>97</th>
-      <td>Ukraine</td>
+      <th>109</th>
+      <td>United States</td>
       <td>2000</td>
-      <td>5969.400</td>
+      <td>120703.543</td>
     </tr>
     <tr>
-      <th>98</th>
-      <td>Ukraine</td>
+      <th>110</th>
+      <td>United States</td>
       <td>2020</td>
-      <td>5969.400</td>
+      <td>120703.543</td>
     </tr>
   </tbody>
 </table>
-<p>99 rows × 3 columns</p>
+<p>111 rows × 3 columns</p>
 </div>
 </div>
 
@@ -18182,7 +20044,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[297]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[59]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_solar</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">subset</span><span class="o">=</span><span class="s1">'solar_energy_anual'</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -18198,7 +20060,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[298]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[60]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_solar</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="s1">'Year'</span><span class="p">,</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -18220,7 +20082,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[298]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[60]:</div>
 
 
 
@@ -18360,58 +20222,78 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     </tr>
     <tr>
       <th>66</th>
+      <td>Netherlands</td>
+      <td>8773.172</td>
+    </tr>
+    <tr>
+      <th>69</th>
       <td>New Zealand</td>
       <td>160.216</td>
     </tr>
     <tr>
-      <th>69</th>
+      <th>72</th>
       <td>Norway</td>
       <td>26.521</td>
     </tr>
     <tr>
-      <th>72</th>
+      <th>75</th>
       <td>Poland</td>
       <td>1957.916</td>
     </tr>
     <tr>
-      <th>75</th>
+      <th>78</th>
       <td>Portugal</td>
       <td>1716.590</td>
     </tr>
     <tr>
-      <th>78</th>
+      <th>81</th>
       <td>Romania</td>
-      <td>1733.375</td>
+      <td>3466.750</td>
     </tr>
     <tr>
-      <th>81</th>
+      <th>84</th>
+      <td>Russian Federation</td>
+      <td>2022.400</td>
+    </tr>
+    <tr>
+      <th>87</th>
       <td>Slovakia</td>
       <td>663.000</td>
     </tr>
     <tr>
-      <th>84</th>
+      <th>90</th>
       <td>Slovenia</td>
       <td>368.196</td>
     </tr>
     <tr>
-      <th>87</th>
+      <th>93</th>
       <td>Spain</td>
       <td>20690.000</td>
     </tr>
     <tr>
-      <th>90</th>
+      <th>96</th>
       <td>Sweden</td>
       <td>1052.000</td>
     </tr>
     <tr>
-      <th>93</th>
+      <th>99</th>
       <td>Switzerland</td>
       <td>2610.659</td>
     </tr>
     <tr>
-      <th>96</th>
+      <th>102</th>
       <td>Ukraine</td>
       <td>5969.400</td>
+    </tr>
+    <tr>
+      <th>105</th>
+      <td>United Kingdom</td>
+      <td>13158.994</td>
+    </tr>
+    <tr>
+      <th>108</th>
+      <td>United States</td>
+      <td>120703.543</td>
     </tr>
   </tbody>
 </table>
@@ -18429,7 +20311,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[299]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[61]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Elimino la columna solar_energy_anual de mi DF para realizar un merge con df_solar</span>
@@ -18453,7 +20335,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[299]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[61]:</div>
 
 
 
@@ -18492,9 +20374,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>0</th>
       <td>Australia</td>
       <td>21071.194</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
       <td>AU</td>
@@ -18504,9 +20386,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>1</th>
       <td>Australia</td>
       <td>21071.194</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
       <td>AU</td>
@@ -18516,9 +20398,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>2</th>
       <td>Australia</td>
       <td>21071.194</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2000</td>
-      <td>349635.486902</td>
+      <td>3.496355e+05</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
       <td>AU</td>
@@ -18528,9 +20410,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>3</th>
       <td>Australia</td>
       <td>21071.194</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2000</td>
-      <td>349635.486902</td>
+      <td>3.496355e+05</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
       <td>AU</td>
@@ -18540,9 +20422,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>4</th>
       <td>Australia</td>
       <td>21071.194</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>1990</td>
-      <td>278154.156296</td>
+      <td>2.781542e+05</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
       <td>AU</td>
@@ -18561,68 +20443,68 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>145</th>
-      <td>Switzerland</td>
-      <td>2610.659</td>
-      <td>1628.000000</td>
-      <td>1990</td>
-      <td>44159.881987</td>
-      <td>The Swiss Confederation</td>
-      <td>.ch</td>
-      <td>CH</td>
-      <td>CHE</td>
-    </tr>
-    <tr>
-      <th>146</th>
-      <td>Switzerland</td>
-      <td>2610.659</td>
-      <td>1628.000000</td>
-      <td>1990</td>
-      <td>44159.881987</td>
-      <td>The Swiss Confederation</td>
-      <td>.ch</td>
-      <td>CH</td>
-      <td>CHE</td>
-    </tr>
-    <tr>
-      <th>147</th>
-      <td>Ukraine</td>
-      <td>5969.400</td>
-      <td>568.000000</td>
-      <td>2020</td>
-      <td>206941.158967</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
-    </tr>
-    <tr>
-      <th>148</th>
-      <td>Ukraine</td>
-      <td>5969.400</td>
-      <td>568.000000</td>
+      <th>172</th>
+      <td>United States</td>
+      <td>120703.543</td>
+      <td>12349.788062</td>
       <td>2000</td>
-      <td>285321.939446</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>6.016351e+06</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>149</th>
-      <td>Ukraine</td>
-      <td>5969.400</td>
-      <td>568.000000</td>
+      <th>173</th>
+      <td>United States</td>
+      <td>120703.543</td>
+      <td>12349.788062</td>
+      <td>2000</td>
+      <td>6.016351e+06</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>United States</td>
+      <td>120703.543</td>
+      <td>12349.788062</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
+    </tr>
+    <tr>
+      <th>175</th>
+      <td>United States</td>
+      <td>120703.543</td>
+      <td>12349.788062</td>
+      <td>1990</td>
+      <td>5.122496e+06</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
+    </tr>
+    <tr>
+      <th>176</th>
+      <td>United States</td>
+      <td>120703.543</td>
+      <td>12349.788062</td>
+      <td>1990</td>
+      <td>5.122496e+06</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
   </tbody>
 </table>
-<p>150 rows × 9 columns</p>
+<p>177 rows × 9 columns</p>
 </div>
 </div>
 
@@ -18637,7 +20519,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[300]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[62]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">DF</span><span class="o">.</span><span class="n">drop_duplicates</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -18659,7 +20541,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[300]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[62]:</div>
 
 
 
@@ -18698,9 +20580,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>0</th>
       <td>Australia</td>
       <td>21071.194</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
       <td>AU</td>
@@ -18710,9 +20592,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>2</th>
       <td>Australia</td>
       <td>21071.194</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>2000</td>
-      <td>349635.486902</td>
+      <td>3.496355e+05</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
       <td>AU</td>
@@ -18722,9 +20604,9 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <th>4</th>
       <td>Australia</td>
       <td>21071.194</td>
-      <td>764.802985</td>
+      <td>754.613235</td>
       <td>1990</td>
-      <td>278154.156296</td>
+      <td>2.781542e+05</td>
       <td>The Commonwealth of Australia</td>
       <td>.au</td>
       <td>AU</td>
@@ -18736,7 +20618,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>2045.934</td>
       <td>1105.285714</td>
       <td>2020</td>
-      <td>62037.446764</td>
+      <td>6.203745e+04</td>
       <td>The Republic of Austria</td>
       <td>.at</td>
       <td>AT</td>
@@ -18748,7 +20630,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>2045.934</td>
       <td>1105.285714</td>
       <td>2000</td>
-      <td>66149.779714</td>
+      <td>6.614978e+04</td>
       <td>The Republic of Austria</td>
       <td>.at</td>
       <td>AT</td>
@@ -18767,68 +20649,68 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>141</th>
-      <td>Switzerland</td>
-      <td>2610.659</td>
-      <td>1628.000000</td>
+      <th>164</th>
+      <td>United Kingdom</td>
+      <td>13158.994</td>
+      <td>857.700000</td>
       <td>2000</td>
-      <td>43622.369321</td>
-      <td>The Swiss Confederation</td>
-      <td>.ch</td>
-      <td>CH</td>
-      <td>CHE</td>
+      <td>5.697442e+05</td>
+      <td>The United Kingdom of Great Britain and Northe...</td>
+      <td>.uk</td>
+      <td>GB</td>
+      <td>GBR</td>
     </tr>
     <tr>
-      <th>144</th>
-      <td>Switzerland</td>
-      <td>2610.659</td>
-      <td>1628.000000</td>
+      <th>166</th>
+      <td>United Kingdom</td>
+      <td>13158.994</td>
+      <td>857.700000</td>
       <td>1990</td>
-      <td>44159.881987</td>
-      <td>The Swiss Confederation</td>
-      <td>.ch</td>
-      <td>CH</td>
-      <td>CHE</td>
+      <td>6.026521e+05</td>
+      <td>The United Kingdom of Great Britain and Northe...</td>
+      <td>.uk</td>
+      <td>GB</td>
+      <td>GBR</td>
     </tr>
     <tr>
-      <th>147</th>
-      <td>Ukraine</td>
-      <td>5969.400</td>
-      <td>568.000000</td>
+      <th>168</th>
+      <td>United States</td>
+      <td>120703.543</td>
+      <td>12349.788062</td>
       <td>2020</td>
-      <td>206941.158967</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>4.715691e+06</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>148</th>
-      <td>Ukraine</td>
-      <td>5969.400</td>
-      <td>568.000000</td>
+      <th>171</th>
+      <td>United States</td>
+      <td>120703.543</td>
+      <td>12349.788062</td>
       <td>2000</td>
-      <td>285321.939446</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>6.016351e+06</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
     <tr>
-      <th>149</th>
-      <td>Ukraine</td>
-      <td>5969.400</td>
-      <td>568.000000</td>
+      <th>174</th>
+      <td>United States</td>
+      <td>120703.543</td>
+      <td>12349.788062</td>
       <td>1990</td>
-      <td>705830.043363</td>
-      <td>Ukraine</td>
-      <td>.ua</td>
-      <td>UA</td>
-      <td>UKR</td>
+      <td>5.122496e+06</td>
+      <td>Baker¬†Island, Howland¬†Island, Jarvis¬†Island...</td>
+      <td>NaN</td>
+      <td>UM</td>
+      <td>UMI</td>
     </tr>
   </tbody>
 </table>
-<p>99 rows × 9 columns</p>
+<p>114 rows × 9 columns</p>
 </div>
 </div>
 
@@ -18866,7 +20748,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[301]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[63]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_co2</span><span class="o">=</span> <span class="n">DF</span><span class="o">.</span><span class="n">loc</span><span class="p">[:,[</span><span class="s1">'Year'</span><span class="p">,</span><span class="s1">'CO2_anual'</span><span class="p">]]</span>
@@ -18888,7 +20770,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[301]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[63]:</div>
 
 
 
@@ -18919,27 +20801,27 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
     <tr>
       <th>0</th>
       <td>2020</td>
-      <td>400333.466600</td>
+      <td>4.003335e+05</td>
     </tr>
     <tr>
       <th>2</th>
       <td>2000</td>
-      <td>349635.486902</td>
+      <td>3.496355e+05</td>
     </tr>
     <tr>
       <th>4</th>
       <td>1990</td>
-      <td>278154.156296</td>
+      <td>2.781542e+05</td>
     </tr>
     <tr>
       <th>6</th>
       <td>2020</td>
-      <td>62037.446764</td>
+      <td>6.203745e+04</td>
     </tr>
     <tr>
       <th>8</th>
       <td>2000</td>
-      <td>66149.779714</td>
+      <td>6.614978e+04</td>
     </tr>
     <tr>
       <th>...</th>
@@ -18947,33 +20829,33 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
       <td>...</td>
     </tr>
     <tr>
-      <th>141</th>
+      <th>164</th>
       <td>2000</td>
-      <td>43622.369321</td>
+      <td>5.697442e+05</td>
     </tr>
     <tr>
-      <th>144</th>
+      <th>166</th>
       <td>1990</td>
-      <td>44159.881987</td>
+      <td>6.026521e+05</td>
     </tr>
     <tr>
-      <th>147</th>
+      <th>168</th>
       <td>2020</td>
-      <td>206941.158967</td>
+      <td>4.715691e+06</td>
     </tr>
     <tr>
-      <th>148</th>
+      <th>171</th>
       <td>2000</td>
-      <td>285321.939446</td>
+      <td>6.016351e+06</td>
     </tr>
     <tr>
-      <th>149</th>
+      <th>174</th>
       <td>1990</td>
-      <td>705830.043363</td>
+      <td>5.122496e+06</td>
     </tr>
   </tbody>
 </table>
-<p>99 rows × 2 columns</p>
+<p>114 rows × 2 columns</p>
 </div>
 </div>
 
@@ -18999,7 +20881,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[302]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[78]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prueba</span> <span class="o">=</span> <span class="n">df_co2</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">]</span>
@@ -19021,7 +20903,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[302]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[78]:</div>
 
 
 
@@ -19080,7 +20962,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[303]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[79]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prueba</span><span class="o">.</span><span class="n">set_index</span><span class="p">([</span><span class="s1">'Year'</span><span class="p">],</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -19103,7 +20985,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[303]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[79]:</div>
 
 
 
@@ -19154,7 +21036,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[304]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[80]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prueba</span><span class="o">.</span><span class="n">reset_index</span><span class="p">(</span><span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -19176,7 +21058,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[304]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[80]:</div>
 
 
 
@@ -19229,7 +21111,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[305]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[81]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">prueba</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">DF</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">]</span>
@@ -19251,7 +21133,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[305]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[81]:</div>
 
 
 
@@ -19321,12 +21203,28 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">DF</span><span class="p">)</span><span class="o">/</span><span class="mi">3</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
 </div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
 <div class="jp-Cell-inputWrapper">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[306]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[82]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># creo un dataframe vacio</span>
@@ -19368,272 +21266,47 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <div class="jp-OutputArea-child">
 
     
-    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[306]:</div>
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
 
 
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
+<pre>
+<span class="ansi-red-intense-fg ansi-bold">---------------------------------------------------------------------------</span>
+<span class="ansi-red-intense-fg ansi-bold">InvalidIndexError</span>                         Traceback (most recent call last)
+Cell <span class="ansi-green-intense-fg ansi-bold">In[82], line 21</span>
+<span class="ansi-green-fg">     18</span>     dfi<span style="color: rgb(98,98,98)">.</span>iloc[<span style="color: rgb(98,98,98)">0</span>,<span style="color: rgb(98,98,98)">0</span>] <span style="color: rgb(98,98,98)">=</span> DF<span style="color: rgb(98,98,98)">.</span>iloc[<span style="color: rgb(98,98,98)">3</span><span style="color: rgb(98,98,98)">*</span>i,<span style="color: rgb(98,98,98)">0</span>]
+<span class="ansi-green-fg">     20</span>     <span style="color: rgb(95,135,135)">#Concateno el dataframe anterior con el actual</span>
+<span class="ansi-green-intense-fg ansi-bold">---&gt; 21</span>     df <span style="color: rgb(98,98,98)">=</span> pd<span style="color: rgb(98,98,98)">.</span>concat([df, dfi], axis<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(98,98,98)">0</span>)
+<span class="ansi-green-fg">     22</span> df
 
-<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+File <span class="ansi-green-intense-fg ansi-bold">~\anaconda3\envs\miamb\Lib\site-packages\pandas\core\reshape\concat.py:385</span>, in <span class="ansi-cyan-fg">concat</span><span class="ansi-blue-intense-fg ansi-bold">(objs, axis, join, ignore_index, keys, levels, names, verify_integrity, sort, copy)</span>
+<span class="ansi-green-fg">    370</span>     copy <span style="color: rgb(98,98,98)">=</span> <span class="ansi-bold" style="color: rgb(0,135,0)">False</span>
+<span class="ansi-green-fg">    372</span> op <span style="color: rgb(98,98,98)">=</span> _Concatenator(
+<span class="ansi-green-fg">    373</span>     objs,
+<span class="ansi-green-fg">    374</span>     axis<span style="color: rgb(98,98,98)">=</span>axis,
+<span class="ansi-green-intense-fg ansi-bold">   (...)</span>
+<span class="ansi-green-fg">    382</span>     sort<span style="color: rgb(98,98,98)">=</span>sort,
+<span class="ansi-green-fg">    383</span> )
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 385</span> <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> op<span style="color: rgb(98,98,98)">.</span>get_result()
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
+File <span class="ansi-green-intense-fg ansi-bold">~\anaconda3\envs\miamb\Lib\site-packages\pandas\core\reshape\concat.py:612</span>, in <span class="ansi-cyan-fg">_Concatenator.get_result</span><span class="ansi-blue-intense-fg ansi-bold">(self)</span>
+<span class="ansi-green-fg">    610</span>         obj_labels <span style="color: rgb(98,98,98)">=</span> obj<span style="color: rgb(98,98,98)">.</span>axes[<span style="color: rgb(98,98,98)">1</span> <span style="color: rgb(98,98,98)">-</span> ax]
+<span class="ansi-green-fg">    611</span>         <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> new_labels<span style="color: rgb(98,98,98)">.</span>equals(obj_labels):
+<span class="ansi-green-intense-fg ansi-bold">--&gt; 612</span>             indexers[ax] <span style="color: rgb(98,98,98)">=</span> obj_labels<span style="color: rgb(98,98,98)">.</span>get_indexer(new_labels)
+<span class="ansi-green-fg">    614</span>     mgrs_indexers<span style="color: rgb(98,98,98)">.</span>append((obj<span style="color: rgb(98,98,98)">.</span>_mgr, indexers))
+<span class="ansi-green-fg">    616</span> new_data <span style="color: rgb(98,98,98)">=</span> concatenate_managers(
+<span class="ansi-green-fg">    617</span>     mgrs_indexers, <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>new_axes, concat_axis<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>bm_axis, copy<span style="color: rgb(98,98,98)">=</span><span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>copy
+<span class="ansi-green-fg">    618</span> )
 
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>Year</th>
-      <th>index</th>
-      <th>2020</th>
-      <th>2000</th>
-      <th>1990</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Australia</td>
-      <td>4.003335e+05</td>
-      <td>3.496355e+05</td>
-      <td>2.781542e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Austria</td>
-      <td>6.203745e+04</td>
-      <td>6.614978e+04</td>
-      <td>6.214525e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Belarus</td>
-      <td>5.859204e+04</td>
-      <td>5.490598e+04</td>
-      <td>1.083451e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Belgium</td>
-      <td>9.036801e+04</td>
-      <td>1.267195e+05</td>
-      <td>1.202926e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Bulgaria</td>
-      <td>3.696711e+04</td>
-      <td>4.546433e+04</td>
-      <td>7.669920e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Canada</td>
-      <td>5.348638e+05</td>
-      <td>5.666904e+05</td>
-      <td>4.582183e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Croatia</td>
-      <td>1.687053e+04</td>
-      <td>1.966249e+04</td>
-      <td>2.297979e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Cyprus</td>
-      <td>7.269578e+03</td>
-      <td>7.122416e+03</td>
-      <td>4.653217e+03</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Denmark</td>
-      <td>2.994838e+04</td>
-      <td>5.564103e+04</td>
-      <td>5.487931e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Estonia</td>
-      <td>9.343010e+03</td>
-      <td>1.550038e+04</td>
-      <td>3.692221e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Finland</td>
-      <td>3.759593e+04</td>
-      <td>5.700992e+04</td>
-      <td>5.691434e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>France</td>
-      <td>2.951364e+05</td>
-      <td>4.181890e+05</td>
-      <td>4.009646e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Germany</td>
-      <td>6.393810e+05</td>
-      <td>8.993518e+05</td>
-      <td>1.051979e+06</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Greece</td>
-      <td>5.561028e+04</td>
-      <td>1.029732e+05</td>
-      <td>8.343804e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Hungary</td>
-      <td>4.728450e+04</td>
-      <td>5.836515e+04</td>
-      <td>7.322554e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Ireland</td>
-      <td>3.515320e+04</td>
-      <td>4.524912e+04</td>
-      <td>3.294442e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Italy</td>
-      <td>3.022786e+05</td>
-      <td>4.704872e+05</td>
-      <td>4.395498e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Japan</td>
-      <td>1.042224e+06</td>
-      <td>1.264595e+06</td>
-      <td>1.158129e+06</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Latvia</td>
-      <td>6.994113e+03</td>
-      <td>7.081469e+03</td>
-      <td>1.966140e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Lithuania</td>
-      <td>1.365315e+04</td>
-      <td>1.187640e+04</td>
-      <td>3.576773e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Luxembourg</td>
-      <td>8.096513e+03</td>
-      <td>8.709963e+03</td>
-      <td>1.182335e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Malta</td>
-      <td>1.599576e+03</td>
-      <td>2.507257e+03</td>
-      <td>2.394194e+03</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>New Zealand</td>
-      <td>3.445675e+04</td>
-      <td>3.224601e+04</td>
-      <td>2.550251e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Norway</td>
-      <td>4.119676e+04</td>
-      <td>4.214881e+04</td>
-      <td>3.509663e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Poland</td>
-      <td>3.035231e+05</td>
-      <td>3.177192e+05</td>
-      <td>3.768136e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Portugal</td>
-      <td>4.179989e+04</td>
-      <td>6.568555e+04</td>
-      <td>4.532509e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Romania</td>
-      <td>7.413801e+04</td>
-      <td>9.266830e+04</td>
-      <td>1.734639e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Slovakia</td>
-      <td>3.109473e+04</td>
-      <td>4.113593e+04</td>
-      <td>6.147019e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Slovenia</td>
-      <td>1.286624e+04</td>
-      <td>1.505369e+04</td>
-      <td>1.509485e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Spain</td>
-      <td>2.133397e+05</td>
-      <td>3.116746e+05</td>
-      <td>2.313284e+05</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Sweden</td>
-      <td>3.651510e+04</td>
-      <td>5.489066e+04</td>
-      <td>5.758009e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Switzerland</td>
-      <td>3.424097e+04</td>
-      <td>4.362237e+04</td>
-      <td>4.415988e+04</td>
-    </tr>
-    <tr>
-      <th>0</th>
-      <td>Ukraine</td>
-      <td>2.069412e+05</td>
-      <td>2.853219e+05</td>
-      <td>7.058300e+05</td>
-    </tr>
-  </tbody>
-</table>
+File <span class="ansi-green-intense-fg ansi-bold">~\anaconda3\envs\miamb\Lib\site-packages\pandas\core\indexes\base.py:3732</span>, in <span class="ansi-cyan-fg">Index.get_indexer</span><span class="ansi-blue-intense-fg ansi-bold">(self, target, method, limit, tolerance)</span>
+<span class="ansi-green-fg">   3729</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_check_indexing_method(method, limit, tolerance)
+<span class="ansi-green-fg">   3731</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span class="ansi-bold" style="color: rgb(175,0,255)">not</span> <span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_index_as_unique:
+<span class="ansi-green-intense-fg ansi-bold">-&gt; 3732</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">raise</span> InvalidIndexError(<span style="color: rgb(0,135,0)">self</span><span style="color: rgb(98,98,98)">.</span>_requires_unique_msg)
+<span class="ansi-green-fg">   3734</span> <span class="ansi-bold" style="color: rgb(0,135,0)">if</span> <span style="color: rgb(0,135,0)">len</span>(target) <span style="color: rgb(98,98,98)">==</span> <span style="color: rgb(98,98,98)">0</span>:
+<span class="ansi-green-fg">   3735</span>     <span class="ansi-bold" style="color: rgb(0,135,0)">return</span> np<span style="color: rgb(98,98,98)">.</span>array([], dtype<span style="color: rgb(98,98,98)">=</span>np<span style="color: rgb(98,98,98)">.</span>intp)
+
+<span class="ansi-red-intense-fg ansi-bold">InvalidIndexError</span>: Reindexing only valid with uniquely valued Index objects</pre>
 </div>
-</div>
-
 </div>
 
 </div>
