@@ -1,5 +1,2 @@
 # ClimateChangeData
-This is the first evaluation of the course. Here, we are going to examine some variables related to climate change. [Here](https://introspatialdatascience.github.io/ClimateChangeData/)
-
-
-
+This is the first evaluation of the course. Here, we are going to examine some variables related to climate change. [Here](http://introspatialdatascience.github.io/ClimateChangeData/)
